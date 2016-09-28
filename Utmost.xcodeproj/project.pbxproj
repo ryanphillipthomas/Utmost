@@ -7,27 +7,223 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6964931D9B4F5000F9D194 /* GEInspira-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A69648F1D9B4F5000F9D194 /* GEInspira-Bold.ttf */; };
+		0A6964941D9B4F5000F9D194 /* GEInspira-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6964901D9B4F5000F9D194 /* GEInspira-BoldItalic.ttf */; };
+		0A6964951D9B4F5000F9D194 /* GEInspira-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6964911D9B4F5000F9D194 /* GEInspira-Italic.ttf */; };
+		0A6964961D9B4F5000F9D194 /* GEInspira.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6964921D9B4F5000F9D194 /* GEInspira.ttf */; };
+		0A6964991D9B505400F9D194 /* LODataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964971D9B505400F9D194 /* LODataModel.xcdatamodeld */; };
+		0A6964B61D9B50F000F9D194 /* LOActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A69649B1D9B50F000F9D194 /* LOActivity.m */; };
+		0A6964B71D9B50F000F9D194 /* LOActivity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A69649D1D9B50F000F9D194 /* LOActivity+CoreDataProperties.m */; };
+		0A6964B81D9B50F000F9D194 /* LOActivityPrototype.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A69649F1D9B50F000F9D194 /* LOActivityPrototype.m */; };
+		0A6964B91D9B50F000F9D194 /* LOFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964A11D9B50F000F9D194 /* LOFood.m */; };
+		0A6964BA1D9B50F000F9D194 /* LOFood+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964A31D9B50F000F9D194 /* LOFood+CoreDataProperties.m */; };
+		0A6964BB1D9B50F000F9D194 /* LOFoodPrototype.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964A51D9B50F000F9D194 /* LOFoodPrototype.m */; };
+		0A6964BC1D9B50F000F9D194 /* LOItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964A71D9B50F000F9D194 /* LOItem.m */; };
+		0A6964BD1D9B50F000F9D194 /* LOItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964A91D9B50F000F9D194 /* LOItem+CoreDataProperties.m */; };
+		0A6964BE1D9B50F000F9D194 /* LOLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964AB1D9B50F000F9D194 /* LOLocation.m */; };
+		0A6964BF1D9B50F000F9D194 /* LOLocation+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964AD1D9B50F000F9D194 /* LOLocation+CoreDataProperties.m */; };
+		0A6964C01D9B50F000F9D194 /* LONewsArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964AF1D9B50F000F9D194 /* LONewsArticle.m */; };
+		0A6964C11D9B50F000F9D194 /* LONewsArticle+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964B11D9B50F000F9D194 /* LONewsArticle+CoreDataProperties.m */; };
+		0A6964C21D9B50F000F9D194 /* LORootItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964B31D9B50F000F9D194 /* LORootItem.m */; };
+		0A6964C31D9B50F000F9D194 /* LORootItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964B51D9B50F000F9D194 /* LORootItem+CoreDataProperties.m */; };
+		0A6964C61D9B510F00F9D194 /* LOSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964C51D9B510F00F9D194 /* LOSettingsViewController.m */; };
+		0A6964D51D9B512B00F9D194 /* LOSettingsAddFlowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964C81D9B512B00F9D194 /* LOSettingsAddFlowTableViewCell.m */; };
+		0A6964D61D9B512B00F9D194 /* LOSettingsFoodDeleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964CA1D9B512B00F9D194 /* LOSettingsFoodDeleteCell.m */; };
+		0A6964D71D9B512B00F9D194 /* LOSettingsHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964CC1D9B512B00F9D194 /* LOSettingsHeaderTableViewCell.m */; };
+		0A6964D81D9B512B00F9D194 /* LOSettingsNewsDeleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964CE1D9B512B00F9D194 /* LOSettingsNewsDeleteCell.m */; };
+		0A6964D91D9B512B00F9D194 /* LOSettingsNewsFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964D01D9B512B00F9D194 /* LOSettingsNewsFeedCell.m */; };
+		0A6964DA1D9B512B00F9D194 /* LOSettingsPinsDeleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964D21D9B512B00F9D194 /* LOSettingsPinsDeleteCell.m */; };
+		0A6964DB1D9B512B00F9D194 /* LOSettingsPinsFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964D41D9B512B00F9D194 /* LOSettingsPinsFeedCell.m */; };
+		0A6964DE1D9B518300F9D194 /* LOMapDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964DD1D9B518300F9D194 /* LOMapDetailViewController.m */; };
+		0A6964E11D9B51E700F9D194 /* LOMapLocationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964E01D9B51E700F9D194 /* LOMapLocationData.m */; };
+		0A6964E71D9B524B00F9D194 /* LOHomeMapTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964E61D9B524B00F9D194 /* LOHomeMapTableViewCell.m */; };
+		0A6964EA1D9B527800F9D194 /* LONewsArticleData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964E91D9B527800F9D194 /* LONewsArticleData.m */; };
+		0A6964F31D9B52A000F9D194 /* LONewsArticleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964EC1D9B52A000F9D194 /* LONewsArticleCollectionViewCell.m */; };
+		0A6964F41D9B52A000F9D194 /* LONewsArticleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6964ED1D9B52A000F9D194 /* LONewsArticleCollectionViewCell.xib */; };
+		0A6964F51D9B52A000F9D194 /* LONewsContainerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964EF1D9B52A000F9D194 /* LONewsContainerCell.m */; };
+		0A6964F61D9B52A000F9D194 /* LONewsContainerCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964F11D9B52A000F9D194 /* LONewsContainerCellView.m */; };
+		0A6964F71D9B52A000F9D194 /* LONewsContainerCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6964F21D9B52A000F9D194 /* LONewsContainerCellView.xib */; };
+		0A6964FA1D9B52B800F9D194 /* LONewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964F91D9B52B800F9D194 /* LONewsDetailViewController.m */; };
+		0A6964FD1D9B52CB00F9D194 /* LOActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964FC1D9B52CB00F9D194 /* LOActivityViewController.m */; };
+		0A6965001D9B530200F9D194 /* LOHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6964FF1D9B530200F9D194 /* LOHomeTableViewController.m */; };
+		0A69650C1D9B532B00F9D194 /* NSDate+TEAExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965021D9B532B00F9D194 /* NSDate+TEAExtensions.m */; };
+		0A69650D1D9B532B00F9D194 /* TEABarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965041D9B532B00F9D194 /* TEABarChart.m */; };
+		0A69650E1D9B532B00F9D194 /* TEAClockChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965071D9B532B00F9D194 /* TEAClockChart.m */; };
+		0A69650F1D9B532B00F9D194 /* TEAContributionGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965091D9B532B00F9D194 /* TEAContributionGraph.m */; };
+		0A6965101D9B532B00F9D194 /* TEATimeRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A69650B1D9B532B00F9D194 /* TEATimeRange.m */; };
+		0A6965131D9B535300F9D194 /* LOHomeChartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965121D9B535300F9D194 /* LOHomeChartTableViewCell.m */; };
+		0A6965161D9B537800F9D194 /* LOHomeLoopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965151D9B537800F9D194 /* LOHomeLoopTableViewCell.m */; };
+		0A6965211D9B53C300F9D194 /* LOActivityEditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965181D9B53C300F9D194 /* LOActivityEditTableViewController.m */; };
+		0A6965221D9B53C300F9D194 /* LOAddTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A69651A1D9B53C300F9D194 /* LOAddTableViewController.m */; };
+		0A6965231D9B53C300F9D194 /* LOFoodEditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A69651C1D9B53C300F9D194 /* LOFoodEditTableViewController.m */; };
+		0A6965241D9B53C300F9D194 /* LOImageSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A69651E1D9B53C300F9D194 /* LOImageSearchViewController.m */; };
+		0A6965251D9B53C300F9D194 /* LOVisualAddFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965201D9B53C300F9D194 /* LOVisualAddFoodViewController.m */; };
+		0A6965281D9B53DA00F9D194 /* LORootItemData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965271D9B53DA00F9D194 /* LORootItemData.m */; };
+		0A69652D1D9B53FF00F9D194 /* LOAddTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A69652A1D9B53FF00F9D194 /* LOAddTableViewCell.m */; };
+		0A69652E1D9B53FF00F9D194 /* LOImageSearchCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A69652C1D9B53FF00F9D194 /* LOImageSearchCollectionViewCell.m */; };
+		0A6965311D9B545100F9D194 /* LOWeekDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965301D9B545100F9D194 /* LOWeekDetailViewController.m */; };
+		0A6965341D9B54B200F9D194 /* LOWeekDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965331D9B54B200F9D194 /* LOWeekDetailTableViewCell.m */; };
+		0A6965371D9B558E00F9D194 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965361D9B558E00F9D194 /* NSDate+Utilities.m */; };
+		0A69653A1D9B55A700F9D194 /* LOScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965391D9B55A700F9D194 /* LOScore.m */; };
+		0A6965441D9B561200F9D194 /* UIScrollView+APParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A69653C1D9B561200F9D194 /* UIScrollView+APParallaxHeader.m */; };
+		0A6965451D9B561200F9D194 /* LOCategoryLifestyleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A69653E1D9B561200F9D194 /* LOCategoryLifestyleDetailViewController.m */; };
+		0A6965461D9B561200F9D194 /* LOCategoryMovementDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965401D9B561200F9D194 /* LOCategoryMovementDetailViewController.m */; };
+		0A6965471D9B561200F9D194 /* LOCategoryNutritionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965421D9B561200F9D194 /* LOCategoryNutritionDetailViewController.m */; };
+		0A6965481D9B561200F9D194 /* Rover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A6965431D9B561200F9D194 /* Rover.jpg */; };
+		0A6965511D9B563C00F9D194 /* LOCategoryHealthQuanitiesChartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A69654A1D9B563C00F9D194 /* LOCategoryHealthQuanitiesChartTableViewCell.m */; };
+		0A6965521D9B563C00F9D194 /* LOCategorySourcingChartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A69654C1D9B563C00F9D194 /* LOCategorySourcingChartTableViewCell.m */; };
+		0A6965531D9B563C00F9D194 /* LOCategorySummaryDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A69654E1D9B563C00F9D194 /* LOCategorySummaryDetailTableViewCell.m */; };
+		0A6965541D9B563C00F9D194 /* LOCategoryWeekScoreChartHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6965501D9B563C00F9D194 /* LOCategoryWeekScoreChartHeaderTableViewCell.m */; };
 		0ABD5A051D9B44B000D07F9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD5A041D9B44B000D07F9B /* main.m */; };
-		0ABD5A081D9B44B000D07F9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD5A071D9B44B000D07F9B /* AppDelegate.m */; };
-		0ABD5A0B1D9B44B000D07F9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD5A0A1D9B44B000D07F9B /* ViewController.m */; };
-		0ABD5A0E1D9B44B000D07F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD5A0C1D9B44B000D07F9B /* Main.storyboard */; };
-		0ABD5A111D9B44B000D07F9B /* Utmost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD5A0F1D9B44B000D07F9B /* Utmost.xcdatamodeld */; };
-		0ABD5A131D9B44B000D07F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD5A121D9B44B000D07F9B /* Assets.xcassets */; };
 		0ABD5A161D9B44B000D07F9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD5A141D9B44B000D07F9B /* LaunchScreen.storyboard */; };
+		0ABD5A1F1D9B463800D07F9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD5A1E1D9B463800D07F9B /* AppDelegate.m */; };
+		0ABD5A211D9B464600D07F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD5A201D9B464600D07F9B /* Assets.xcassets */; };
+		0ABD5A231D9B465B00D07F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD5A221D9B465B00D07F9B /* Main.storyboard */; };
+		0ABD5A251D9B46B300D07F9B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABD5A241D9B46B300D07F9B /* MapKit.framework */; };
+		B77121DD496C3D898428FA07 /* libPods-Utmost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 688ABBA567AEAA0C39546CB0 /* libPods-Utmost.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A69648F1D9B4F5000F9D194 /* GEInspira-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GEInspira-Bold.ttf"; sourceTree = "<group>"; };
+		0A6964901D9B4F5000F9D194 /* GEInspira-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GEInspira-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0A6964911D9B4F5000F9D194 /* GEInspira-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GEInspira-Italic.ttf"; sourceTree = "<group>"; };
+		0A6964921D9B4F5000F9D194 /* GEInspira.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GEInspira.ttf; sourceTree = "<group>"; };
+		0A6964981D9B505400F9D194 /* LODataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LODataModel.xcdatamodel; sourceTree = "<group>"; };
+		0A69649A1D9B50F000F9D194 /* LOActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOActivity.h; sourceTree = "<group>"; };
+		0A69649B1D9B50F000F9D194 /* LOActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOActivity.m; sourceTree = "<group>"; };
+		0A69649C1D9B50F000F9D194 /* LOActivity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LOActivity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0A69649D1D9B50F000F9D194 /* LOActivity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LOActivity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0A69649E1D9B50F000F9D194 /* LOActivityPrototype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOActivityPrototype.h; sourceTree = "<group>"; };
+		0A69649F1D9B50F000F9D194 /* LOActivityPrototype.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOActivityPrototype.m; sourceTree = "<group>"; };
+		0A6964A01D9B50F000F9D194 /* LOFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOFood.h; sourceTree = "<group>"; };
+		0A6964A11D9B50F000F9D194 /* LOFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOFood.m; sourceTree = "<group>"; };
+		0A6964A21D9B50F000F9D194 /* LOFood+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LOFood+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0A6964A31D9B50F000F9D194 /* LOFood+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LOFood+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0A6964A41D9B50F000F9D194 /* LOFoodPrototype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOFoodPrototype.h; sourceTree = "<group>"; };
+		0A6964A51D9B50F000F9D194 /* LOFoodPrototype.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOFoodPrototype.m; sourceTree = "<group>"; };
+		0A6964A61D9B50F000F9D194 /* LOItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOItem.h; sourceTree = "<group>"; };
+		0A6964A71D9B50F000F9D194 /* LOItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOItem.m; sourceTree = "<group>"; };
+		0A6964A81D9B50F000F9D194 /* LOItem+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LOItem+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0A6964A91D9B50F000F9D194 /* LOItem+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LOItem+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0A6964AA1D9B50F000F9D194 /* LOLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLocation.h; sourceTree = "<group>"; };
+		0A6964AB1D9B50F000F9D194 /* LOLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLocation.m; sourceTree = "<group>"; };
+		0A6964AC1D9B50F000F9D194 /* LOLocation+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LOLocation+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0A6964AD1D9B50F000F9D194 /* LOLocation+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LOLocation+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0A6964AE1D9B50F000F9D194 /* LONewsArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LONewsArticle.h; sourceTree = "<group>"; };
+		0A6964AF1D9B50F000F9D194 /* LONewsArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LONewsArticle.m; sourceTree = "<group>"; };
+		0A6964B01D9B50F000F9D194 /* LONewsArticle+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LONewsArticle+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0A6964B11D9B50F000F9D194 /* LONewsArticle+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LONewsArticle+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0A6964B21D9B50F000F9D194 /* LORootItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LORootItem.h; sourceTree = "<group>"; };
+		0A6964B31D9B50F000F9D194 /* LORootItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LORootItem.m; sourceTree = "<group>"; };
+		0A6964B41D9B50F000F9D194 /* LORootItem+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LORootItem+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0A6964B51D9B50F000F9D194 /* LORootItem+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LORootItem+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0A6964C41D9B510F00F9D194 /* LOSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSettingsViewController.h; sourceTree = "<group>"; };
+		0A6964C51D9B510F00F9D194 /* LOSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSettingsViewController.m; sourceTree = "<group>"; };
+		0A6964C71D9B512B00F9D194 /* LOSettingsAddFlowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSettingsAddFlowTableViewCell.h; sourceTree = "<group>"; };
+		0A6964C81D9B512B00F9D194 /* LOSettingsAddFlowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSettingsAddFlowTableViewCell.m; sourceTree = "<group>"; };
+		0A6964C91D9B512B00F9D194 /* LOSettingsFoodDeleteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSettingsFoodDeleteCell.h; sourceTree = "<group>"; };
+		0A6964CA1D9B512B00F9D194 /* LOSettingsFoodDeleteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSettingsFoodDeleteCell.m; sourceTree = "<group>"; };
+		0A6964CB1D9B512B00F9D194 /* LOSettingsHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSettingsHeaderTableViewCell.h; sourceTree = "<group>"; };
+		0A6964CC1D9B512B00F9D194 /* LOSettingsHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSettingsHeaderTableViewCell.m; sourceTree = "<group>"; };
+		0A6964CD1D9B512B00F9D194 /* LOSettingsNewsDeleteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSettingsNewsDeleteCell.h; sourceTree = "<group>"; };
+		0A6964CE1D9B512B00F9D194 /* LOSettingsNewsDeleteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSettingsNewsDeleteCell.m; sourceTree = "<group>"; };
+		0A6964CF1D9B512B00F9D194 /* LOSettingsNewsFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSettingsNewsFeedCell.h; sourceTree = "<group>"; };
+		0A6964D01D9B512B00F9D194 /* LOSettingsNewsFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSettingsNewsFeedCell.m; sourceTree = "<group>"; };
+		0A6964D11D9B512B00F9D194 /* LOSettingsPinsDeleteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSettingsPinsDeleteCell.h; sourceTree = "<group>"; };
+		0A6964D21D9B512B00F9D194 /* LOSettingsPinsDeleteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSettingsPinsDeleteCell.m; sourceTree = "<group>"; };
+		0A6964D31D9B512B00F9D194 /* LOSettingsPinsFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOSettingsPinsFeedCell.h; sourceTree = "<group>"; };
+		0A6964D41D9B512B00F9D194 /* LOSettingsPinsFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOSettingsPinsFeedCell.m; sourceTree = "<group>"; };
+		0A6964DC1D9B518300F9D194 /* LOMapDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOMapDetailViewController.h; sourceTree = "<group>"; };
+		0A6964DD1D9B518300F9D194 /* LOMapDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOMapDetailViewController.m; sourceTree = "<group>"; };
+		0A6964DF1D9B51E700F9D194 /* LOMapLocationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOMapLocationData.h; path = Utmost/LOMapLocationData.h; sourceTree = SOURCE_ROOT; };
+		0A6964E01D9B51E700F9D194 /* LOMapLocationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOMapLocationData.m; path = Utmost/LOMapLocationData.m; sourceTree = SOURCE_ROOT; };
+		0A6964E51D9B524B00F9D194 /* LOHomeMapTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOHomeMapTableViewCell.h; path = Utmost/LOHomeMapTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		0A6964E61D9B524B00F9D194 /* LOHomeMapTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOHomeMapTableViewCell.m; path = Utmost/LOHomeMapTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		0A6964E81D9B527800F9D194 /* LONewsArticleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LONewsArticleData.h; sourceTree = "<group>"; };
+		0A6964E91D9B527800F9D194 /* LONewsArticleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LONewsArticleData.m; sourceTree = "<group>"; };
+		0A6964EB1D9B52A000F9D194 /* LONewsArticleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LONewsArticleCollectionViewCell.h; sourceTree = "<group>"; };
+		0A6964EC1D9B52A000F9D194 /* LONewsArticleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LONewsArticleCollectionViewCell.m; sourceTree = "<group>"; };
+		0A6964ED1D9B52A000F9D194 /* LONewsArticleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LONewsArticleCollectionViewCell.xib; sourceTree = "<group>"; };
+		0A6964EE1D9B52A000F9D194 /* LONewsContainerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LONewsContainerCell.h; sourceTree = "<group>"; };
+		0A6964EF1D9B52A000F9D194 /* LONewsContainerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LONewsContainerCell.m; sourceTree = "<group>"; };
+		0A6964F01D9B52A000F9D194 /* LONewsContainerCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LONewsContainerCellView.h; sourceTree = "<group>"; };
+		0A6964F11D9B52A000F9D194 /* LONewsContainerCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LONewsContainerCellView.m; sourceTree = "<group>"; };
+		0A6964F21D9B52A000F9D194 /* LONewsContainerCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LONewsContainerCellView.xib; sourceTree = "<group>"; };
+		0A6964F81D9B52B800F9D194 /* LONewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LONewsDetailViewController.h; sourceTree = "<group>"; };
+		0A6964F91D9B52B800F9D194 /* LONewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LONewsDetailViewController.m; sourceTree = "<group>"; };
+		0A6964FB1D9B52CB00F9D194 /* LOActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOActivityViewController.h; sourceTree = "<group>"; };
+		0A6964FC1D9B52CB00F9D194 /* LOActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOActivityViewController.m; sourceTree = "<group>"; };
+		0A6964FE1D9B530200F9D194 /* LOHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOHomeTableViewController.h; sourceTree = "<group>"; };
+		0A6964FF1D9B530200F9D194 /* LOHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOHomeTableViewController.m; sourceTree = "<group>"; };
+		0A6965011D9B532B00F9D194 /* NSDate+TEAExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+TEAExtensions.h"; path = "TEAChart/NSDate+TEAExtensions.h"; sourceTree = "<group>"; };
+		0A6965021D9B532B00F9D194 /* NSDate+TEAExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+TEAExtensions.m"; path = "TEAChart/NSDate+TEAExtensions.m"; sourceTree = "<group>"; };
+		0A6965031D9B532B00F9D194 /* TEABarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TEABarChart.h; path = TEAChart/TEABarChart.h; sourceTree = "<group>"; };
+		0A6965041D9B532B00F9D194 /* TEABarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TEABarChart.m; path = TEAChart/TEABarChart.m; sourceTree = "<group>"; };
+		0A6965051D9B532B00F9D194 /* TEAChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TEAChart.h; path = TEAChart/TEAChart.h; sourceTree = "<group>"; };
+		0A6965061D9B532B00F9D194 /* TEAClockChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TEAClockChart.h; path = TEAChart/TEAClockChart.h; sourceTree = "<group>"; };
+		0A6965071D9B532B00F9D194 /* TEAClockChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TEAClockChart.m; path = TEAChart/TEAClockChart.m; sourceTree = "<group>"; };
+		0A6965081D9B532B00F9D194 /* TEAContributionGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TEAContributionGraph.h; path = TEAChart/TEAContributionGraph.h; sourceTree = "<group>"; };
+		0A6965091D9B532B00F9D194 /* TEAContributionGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TEAContributionGraph.m; path = TEAChart/TEAContributionGraph.m; sourceTree = "<group>"; };
+		0A69650A1D9B532B00F9D194 /* TEATimeRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TEATimeRange.h; path = TEAChart/TEATimeRange.h; sourceTree = "<group>"; };
+		0A69650B1D9B532B00F9D194 /* TEATimeRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TEATimeRange.m; path = TEAChart/TEATimeRange.m; sourceTree = "<group>"; };
+		0A6965111D9B535300F9D194 /* LOHomeChartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOHomeChartTableViewCell.h; sourceTree = "<group>"; };
+		0A6965121D9B535300F9D194 /* LOHomeChartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOHomeChartTableViewCell.m; sourceTree = "<group>"; };
+		0A6965141D9B537800F9D194 /* LOHomeLoopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOHomeLoopTableViewCell.h; sourceTree = "<group>"; };
+		0A6965151D9B537800F9D194 /* LOHomeLoopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOHomeLoopTableViewCell.m; sourceTree = "<group>"; };
+		0A6965171D9B53C300F9D194 /* LOActivityEditTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOActivityEditTableViewController.h; sourceTree = "<group>"; };
+		0A6965181D9B53C300F9D194 /* LOActivityEditTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOActivityEditTableViewController.m; sourceTree = "<group>"; };
+		0A6965191D9B53C300F9D194 /* LOAddTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOAddTableViewController.h; sourceTree = "<group>"; };
+		0A69651A1D9B53C300F9D194 /* LOAddTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOAddTableViewController.m; sourceTree = "<group>"; };
+		0A69651B1D9B53C300F9D194 /* LOFoodEditTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOFoodEditTableViewController.h; sourceTree = "<group>"; };
+		0A69651C1D9B53C300F9D194 /* LOFoodEditTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOFoodEditTableViewController.m; sourceTree = "<group>"; };
+		0A69651D1D9B53C300F9D194 /* LOImageSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOImageSearchViewController.h; sourceTree = "<group>"; };
+		0A69651E1D9B53C300F9D194 /* LOImageSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOImageSearchViewController.m; sourceTree = "<group>"; };
+		0A69651F1D9B53C300F9D194 /* LOVisualAddFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOVisualAddFoodViewController.h; sourceTree = "<group>"; };
+		0A6965201D9B53C300F9D194 /* LOVisualAddFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOVisualAddFoodViewController.m; sourceTree = "<group>"; };
+		0A6965261D9B53DA00F9D194 /* LORootItemData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LORootItemData.h; sourceTree = "<group>"; };
+		0A6965271D9B53DA00F9D194 /* LORootItemData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LORootItemData.m; sourceTree = "<group>"; };
+		0A6965291D9B53FF00F9D194 /* LOAddTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOAddTableViewCell.h; sourceTree = "<group>"; };
+		0A69652A1D9B53FF00F9D194 /* LOAddTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOAddTableViewCell.m; sourceTree = "<group>"; };
+		0A69652B1D9B53FF00F9D194 /* LOImageSearchCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOImageSearchCollectionViewCell.h; sourceTree = "<group>"; };
+		0A69652C1D9B53FF00F9D194 /* LOImageSearchCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOImageSearchCollectionViewCell.m; sourceTree = "<group>"; };
+		0A69652F1D9B545100F9D194 /* LOWeekDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOWeekDetailViewController.h; sourceTree = "<group>"; };
+		0A6965301D9B545100F9D194 /* LOWeekDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOWeekDetailViewController.m; sourceTree = "<group>"; };
+		0A6965321D9B54B200F9D194 /* LOWeekDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOWeekDetailTableViewCell.h; path = Utmost/LOWeekDetailTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		0A6965331D9B54B200F9D194 /* LOWeekDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOWeekDetailTableViewCell.m; path = Utmost/LOWeekDetailTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		0A6965351D9B558E00F9D194 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		0A6965361D9B558E00F9D194 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		0A6965381D9B55A700F9D194 /* LOScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOScore.h; sourceTree = "<group>"; };
+		0A6965391D9B55A700F9D194 /* LOScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOScore.m; sourceTree = "<group>"; };
+		0A69653B1D9B561200F9D194 /* UIScrollView+APParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+APParallaxHeader.h"; path = "APParallaxHeader/UIScrollView+APParallaxHeader.h"; sourceTree = "<group>"; };
+		0A69653C1D9B561200F9D194 /* UIScrollView+APParallaxHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+APParallaxHeader.m"; path = "APParallaxHeader/UIScrollView+APParallaxHeader.m"; sourceTree = "<group>"; };
+		0A69653D1D9B561200F9D194 /* LOCategoryLifestyleDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCategoryLifestyleDetailViewController.h; sourceTree = "<group>"; };
+		0A69653E1D9B561200F9D194 /* LOCategoryLifestyleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOCategoryLifestyleDetailViewController.m; sourceTree = "<group>"; };
+		0A69653F1D9B561200F9D194 /* LOCategoryMovementDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCategoryMovementDetailViewController.h; sourceTree = "<group>"; };
+		0A6965401D9B561200F9D194 /* LOCategoryMovementDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOCategoryMovementDetailViewController.m; sourceTree = "<group>"; };
+		0A6965411D9B561200F9D194 /* LOCategoryNutritionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCategoryNutritionDetailViewController.h; sourceTree = "<group>"; };
+		0A6965421D9B561200F9D194 /* LOCategoryNutritionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOCategoryNutritionDetailViewController.m; sourceTree = "<group>"; };
+		0A6965431D9B561200F9D194 /* Rover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rover.jpg; sourceTree = "<group>"; };
+		0A6965491D9B563C00F9D194 /* LOCategoryHealthQuanitiesChartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCategoryHealthQuanitiesChartTableViewCell.h; sourceTree = "<group>"; };
+		0A69654A1D9B563C00F9D194 /* LOCategoryHealthQuanitiesChartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOCategoryHealthQuanitiesChartTableViewCell.m; sourceTree = "<group>"; };
+		0A69654B1D9B563C00F9D194 /* LOCategorySourcingChartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCategorySourcingChartTableViewCell.h; sourceTree = "<group>"; };
+		0A69654C1D9B563C00F9D194 /* LOCategorySourcingChartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOCategorySourcingChartTableViewCell.m; sourceTree = "<group>"; };
+		0A69654D1D9B563C00F9D194 /* LOCategorySummaryDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCategorySummaryDetailTableViewCell.h; sourceTree = "<group>"; };
+		0A69654E1D9B563C00F9D194 /* LOCategorySummaryDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOCategorySummaryDetailTableViewCell.m; sourceTree = "<group>"; };
+		0A69654F1D9B563C00F9D194 /* LOCategoryWeekScoreChartHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCategoryWeekScoreChartHeaderTableViewCell.h; sourceTree = "<group>"; };
+		0A6965501D9B563C00F9D194 /* LOCategoryWeekScoreChartHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOCategoryWeekScoreChartHeaderTableViewCell.m; sourceTree = "<group>"; };
 		0ABD5A001D9B44B000D07F9B /* Utmost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Utmost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABD5A041D9B44B000D07F9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0ABD5A061D9B44B000D07F9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0ABD5A071D9B44B000D07F9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0ABD5A091D9B44B000D07F9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0ABD5A0A1D9B44B000D07F9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0ABD5A0D1D9B44B000D07F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0ABD5A101D9B44B000D07F9B /* Utmost.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Utmost.xcdatamodel; sourceTree = "<group>"; };
-		0ABD5A121D9B44B000D07F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ABD5A151D9B44B000D07F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ABD5A171D9B44B000D07F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABD5A1D1D9B463800D07F9B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0ABD5A1E1D9B463800D07F9B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0ABD5A201D9B464600D07F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ABD5A221D9B465B00D07F9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0ABD5A241D9B46B300D07F9B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0ABD5B081D9B496000D07F9B /* Utmost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Utmost-Prefix.pch"; sourceTree = "<group>"; };
+		23334F484D22E989054819C4 /* Pods-Utmost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utmost.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Utmost/Pods-Utmost.debug.xcconfig"; sourceTree = "<group>"; };
+		688ABBA567AEAA0C39546CB0 /* libPods-Utmost.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Utmost.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B742CADD61BA8727AE7A60 /* Pods-Utmost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Utmost.release.xcconfig"; path = "Pods/Target Support Files/Pods-Utmost/Pods-Utmost.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +231,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABD5A251D9B46B300D07F9B /* MapKit.framework in Frameworks */,
+				B77121DD496C3D898428FA07 /* libPods-Utmost.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +244,8 @@
 			children = (
 				0ABD5A021D9B44B000D07F9B /* Utmost */,
 				0ABD5A011D9B44B000D07F9B /* Products */,
+				1FBBC78FDF787913A3B6AD80 /* Pods */,
+				851765EF2BD91828CA688B2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +260,23 @@
 		0ABD5A021D9B44B000D07F9B /* Utmost */ = {
 			isa = PBXGroup;
 			children = (
-				0ABD5A061D9B44B000D07F9B /* AppDelegate.h */,
-				0ABD5A071D9B44B000D07F9B /* AppDelegate.m */,
-				0ABD5A091D9B44B000D07F9B /* ViewController.h */,
-				0ABD5A0A1D9B44B000D07F9B /* ViewController.m */,
-				0ABD5A0C1D9B44B000D07F9B /* Main.storyboard */,
-				0ABD5A121D9B44B000D07F9B /* Assets.xcassets */,
+				0ABD5A1D1D9B463800D07F9B /* AppDelegate.h */,
+				0ABD5A1E1D9B463800D07F9B /* AppDelegate.m */,
+				0ABD5A201D9B464600D07F9B /* Assets.xcassets */,
+				0ABD5A221D9B465B00D07F9B /* Main.storyboard */,
 				0ABD5A141D9B44B000D07F9B /* LaunchScreen.storyboard */,
 				0ABD5A171D9B44B000D07F9B /* Info.plist */,
-				0ABD5A0F1D9B44B000D07F9B /* Utmost.xcdatamodeld */,
+				0ABD5A301D9B474000D07F9B /* Fonts */,
+				0ABD5A2F1D9B473500D07F9B /* Data Model */,
+				0ABD5A2E1D9B472500D07F9B /* Settings */,
+				0ABD5A2D1D9B471F00D07F9B /* Map */,
+				0ABD5A2C1D9B471900D07F9B /* News */,
+				0ABD5A2B1D9B471100D07F9B /* Activity */,
+				0ABD5A2A1D9B470B00D07F9B /* Home */,
+				0ABD5A291D9B46FF00D07F9B /* Add / Edit Items */,
+				0ABD5A281D9B46F300D07F9B /* Week */,
+				0ABD5A271D9B46EE00D07F9B /* Score */,
+				0ABD5A261D9B46D300D07F9B /* Category */,
 				0ABD5A031D9B44B000D07F9B /* Supporting Files */,
 			);
 			path = Utmost;
@@ -77,9 +285,331 @@
 		0ABD5A031D9B44B000D07F9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0ABD5B081D9B496000D07F9B /* Utmost-Prefix.pch */,
 				0ABD5A041D9B44B000D07F9B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0ABD5A261D9B46D300D07F9B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0A69653B1D9B561200F9D194 /* UIScrollView+APParallaxHeader.h */,
+				0A69653C1D9B561200F9D194 /* UIScrollView+APParallaxHeader.m */,
+				0A69653D1D9B561200F9D194 /* LOCategoryLifestyleDetailViewController.h */,
+				0A69653E1D9B561200F9D194 /* LOCategoryLifestyleDetailViewController.m */,
+				0A69653F1D9B561200F9D194 /* LOCategoryMovementDetailViewController.h */,
+				0A6965401D9B561200F9D194 /* LOCategoryMovementDetailViewController.m */,
+				0A6965411D9B561200F9D194 /* LOCategoryNutritionDetailViewController.h */,
+				0A6965421D9B561200F9D194 /* LOCategoryNutritionDetailViewController.m */,
+				0A6965431D9B561200F9D194 /* Rover.jpg */,
+				0ABD5B071D9B491B00D07F9B /* Cells */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		0ABD5A271D9B46EE00D07F9B /* Score */ = {
+			isa = PBXGroup;
+			children = (
+				0A6965381D9B55A700F9D194 /* LOScore.h */,
+				0A6965391D9B55A700F9D194 /* LOScore.m */,
+				0A6965351D9B558E00F9D194 /* NSDate+Utilities.h */,
+				0A6965361D9B558E00F9D194 /* NSDate+Utilities.m */,
+			);
+			name = Score;
+			sourceTree = "<group>";
+		};
+		0ABD5A281D9B46F300D07F9B /* Week */ = {
+			isa = PBXGroup;
+			children = (
+				0A69652F1D9B545100F9D194 /* LOWeekDetailViewController.h */,
+				0A6965301D9B545100F9D194 /* LOWeekDetailViewController.m */,
+				0ABD5AE11D9B48E600D07F9B /* Cells */,
+			);
+			name = Week;
+			sourceTree = "<group>";
+		};
+		0ABD5A291D9B46FF00D07F9B /* Add / Edit Items */ = {
+			isa = PBXGroup;
+			children = (
+				0A6965171D9B53C300F9D194 /* LOActivityEditTableViewController.h */,
+				0A6965181D9B53C300F9D194 /* LOActivityEditTableViewController.m */,
+				0A6965191D9B53C300F9D194 /* LOAddTableViewController.h */,
+				0A69651A1D9B53C300F9D194 /* LOAddTableViewController.m */,
+				0A69651B1D9B53C300F9D194 /* LOFoodEditTableViewController.h */,
+				0A69651C1D9B53C300F9D194 /* LOFoodEditTableViewController.m */,
+				0A69651D1D9B53C300F9D194 /* LOImageSearchViewController.h */,
+				0A69651E1D9B53C300F9D194 /* LOImageSearchViewController.m */,
+				0A69651F1D9B53C300F9D194 /* LOVisualAddFoodViewController.h */,
+				0A6965201D9B53C300F9D194 /* LOVisualAddFoodViewController.m */,
+				0ABD5ADB1D9B48B200D07F9B /* Cells */,
+				0ABD5ADC1D9B48D000D07F9B /* API Data */,
+			);
+			name = "Add / Edit Items";
+			sourceTree = "<group>";
+		};
+		0ABD5A2A1D9B470B00D07F9B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0A6965141D9B537800F9D194 /* LOHomeLoopTableViewCell.h */,
+				0A6965151D9B537800F9D194 /* LOHomeLoopTableViewCell.m */,
+				0A6964FE1D9B530200F9D194 /* LOHomeTableViewController.h */,
+				0A6964FF1D9B530200F9D194 /* LOHomeTableViewController.m */,
+				0ABD5AC11D9B486300D07F9B /* Chart */,
+				0ABD5AC21D9B487300D07F9B /* Cells */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		0ABD5A2B1D9B471100D07F9B /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				0A6964FB1D9B52CB00F9D194 /* LOActivityViewController.h */,
+				0A6964FC1D9B52CB00F9D194 /* LOActivityViewController.m */,
+			);
+			name = Activity;
+			sourceTree = "<group>";
+		};
+		0ABD5A2C1D9B471900D07F9B /* News */ = {
+			isa = PBXGroup;
+			children = (
+				0A6964F81D9B52B800F9D194 /* LONewsDetailViewController.h */,
+				0A6964F91D9B52B800F9D194 /* LONewsDetailViewController.m */,
+				0ABD5AA41D9B481B00D07F9B /* API Data */,
+				0ABD5AA01D9B480A00D07F9B /* Cells */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		0ABD5A2D1D9B471F00D07F9B /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				0A6964DC1D9B518300F9D194 /* LOMapDetailViewController.h */,
+				0A6964DD1D9B518300F9D194 /* LOMapDetailViewController.m */,
+				0ABD5A811D9B47A200D07F9B /* API Data */,
+				0ABD5A861D9B47A200D07F9B /* Cells */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		0ABD5A2E1D9B472500D07F9B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0A6964C41D9B510F00F9D194 /* LOSettingsViewController.h */,
+				0A6964C51D9B510F00F9D194 /* LOSettingsViewController.m */,
+				0ABD5A8E1D9B47BC00D07F9B /* Cells */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		0ABD5A2F1D9B473500D07F9B /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A6964971D9B505400F9D194 /* LODataModel.xcdatamodeld */,
+				0ABD5A8F1D9B47D000D07F9B /* NSManagedObjects */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		0ABD5A301D9B474000D07F9B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0A69648F1D9B4F5000F9D194 /* GEInspira-Bold.ttf */,
+				0A6964901D9B4F5000F9D194 /* GEInspira-BoldItalic.ttf */,
+				0A6964911D9B4F5000F9D194 /* GEInspira-Italic.ttf */,
+				0A6964921D9B4F5000F9D194 /* GEInspira.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		0ABD5A811D9B47A200D07F9B /* API Data */ = {
+			isa = PBXGroup;
+			children = (
+				0A6964DF1D9B51E700F9D194 /* LOMapLocationData.h */,
+				0A6964E01D9B51E700F9D194 /* LOMapLocationData.m */,
+			);
+			name = "API Data";
+			path = ../../Loop/Loop;
+			sourceTree = "<group>";
+		};
+		0ABD5A861D9B47A200D07F9B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0A6964E51D9B524B00F9D194 /* LOHomeMapTableViewCell.h */,
+				0A6964E61D9B524B00F9D194 /* LOHomeMapTableViewCell.m */,
+			);
+			name = Cells;
+			path = ../../Loop/Loop;
+			sourceTree = "<group>";
+		};
+		0ABD5A8E1D9B47BC00D07F9B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0A6964C71D9B512B00F9D194 /* LOSettingsAddFlowTableViewCell.h */,
+				0A6964C81D9B512B00F9D194 /* LOSettingsAddFlowTableViewCell.m */,
+				0A6964C91D9B512B00F9D194 /* LOSettingsFoodDeleteCell.h */,
+				0A6964CA1D9B512B00F9D194 /* LOSettingsFoodDeleteCell.m */,
+				0A6964CB1D9B512B00F9D194 /* LOSettingsHeaderTableViewCell.h */,
+				0A6964CC1D9B512B00F9D194 /* LOSettingsHeaderTableViewCell.m */,
+				0A6964CD1D9B512B00F9D194 /* LOSettingsNewsDeleteCell.h */,
+				0A6964CE1D9B512B00F9D194 /* LOSettingsNewsDeleteCell.m */,
+				0A6964CF1D9B512B00F9D194 /* LOSettingsNewsFeedCell.h */,
+				0A6964D01D9B512B00F9D194 /* LOSettingsNewsFeedCell.m */,
+				0A6964D11D9B512B00F9D194 /* LOSettingsPinsDeleteCell.h */,
+				0A6964D21D9B512B00F9D194 /* LOSettingsPinsDeleteCell.m */,
+				0A6964D31D9B512B00F9D194 /* LOSettingsPinsFeedCell.h */,
+				0A6964D41D9B512B00F9D194 /* LOSettingsPinsFeedCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		0ABD5A8F1D9B47D000D07F9B /* NSManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				0A69649A1D9B50F000F9D194 /* LOActivity.h */,
+				0A69649B1D9B50F000F9D194 /* LOActivity.m */,
+				0A69649C1D9B50F000F9D194 /* LOActivity+CoreDataProperties.h */,
+				0A69649D1D9B50F000F9D194 /* LOActivity+CoreDataProperties.m */,
+				0A69649E1D9B50F000F9D194 /* LOActivityPrototype.h */,
+				0A69649F1D9B50F000F9D194 /* LOActivityPrototype.m */,
+				0A6964A01D9B50F000F9D194 /* LOFood.h */,
+				0A6964A11D9B50F000F9D194 /* LOFood.m */,
+				0A6964A21D9B50F000F9D194 /* LOFood+CoreDataProperties.h */,
+				0A6964A31D9B50F000F9D194 /* LOFood+CoreDataProperties.m */,
+				0A6964A41D9B50F000F9D194 /* LOFoodPrototype.h */,
+				0A6964A51D9B50F000F9D194 /* LOFoodPrototype.m */,
+				0A6964A61D9B50F000F9D194 /* LOItem.h */,
+				0A6964A71D9B50F000F9D194 /* LOItem.m */,
+				0A6964A81D9B50F000F9D194 /* LOItem+CoreDataProperties.h */,
+				0A6964A91D9B50F000F9D194 /* LOItem+CoreDataProperties.m */,
+				0A6964AA1D9B50F000F9D194 /* LOLocation.h */,
+				0A6964AB1D9B50F000F9D194 /* LOLocation.m */,
+				0A6964AC1D9B50F000F9D194 /* LOLocation+CoreDataProperties.h */,
+				0A6964AD1D9B50F000F9D194 /* LOLocation+CoreDataProperties.m */,
+				0A6964AE1D9B50F000F9D194 /* LONewsArticle.h */,
+				0A6964AF1D9B50F000F9D194 /* LONewsArticle.m */,
+				0A6964B01D9B50F000F9D194 /* LONewsArticle+CoreDataProperties.h */,
+				0A6964B11D9B50F000F9D194 /* LONewsArticle+CoreDataProperties.m */,
+				0A6964B21D9B50F000F9D194 /* LORootItem.h */,
+				0A6964B31D9B50F000F9D194 /* LORootItem.m */,
+				0A6964B41D9B50F000F9D194 /* LORootItem+CoreDataProperties.h */,
+				0A6964B51D9B50F000F9D194 /* LORootItem+CoreDataProperties.m */,
+			);
+			name = NSManagedObjects;
+			sourceTree = "<group>";
+		};
+		0ABD5AA01D9B480A00D07F9B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0A6964EB1D9B52A000F9D194 /* LONewsArticleCollectionViewCell.h */,
+				0A6964EC1D9B52A000F9D194 /* LONewsArticleCollectionViewCell.m */,
+				0A6964ED1D9B52A000F9D194 /* LONewsArticleCollectionViewCell.xib */,
+				0A6964EE1D9B52A000F9D194 /* LONewsContainerCell.h */,
+				0A6964EF1D9B52A000F9D194 /* LONewsContainerCell.m */,
+				0A6964F01D9B52A000F9D194 /* LONewsContainerCellView.h */,
+				0A6964F11D9B52A000F9D194 /* LONewsContainerCellView.m */,
+				0A6964F21D9B52A000F9D194 /* LONewsContainerCellView.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		0ABD5AA41D9B481B00D07F9B /* API Data */ = {
+			isa = PBXGroup;
+			children = (
+				0A6964E81D9B527800F9D194 /* LONewsArticleData.h */,
+				0A6964E91D9B527800F9D194 /* LONewsArticleData.m */,
+			);
+			name = "API Data";
+			sourceTree = "<group>";
+		};
+		0ABD5AC11D9B486300D07F9B /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				0A6965011D9B532B00F9D194 /* NSDate+TEAExtensions.h */,
+				0A6965021D9B532B00F9D194 /* NSDate+TEAExtensions.m */,
+				0A6965031D9B532B00F9D194 /* TEABarChart.h */,
+				0A6965041D9B532B00F9D194 /* TEABarChart.m */,
+				0A6965051D9B532B00F9D194 /* TEAChart.h */,
+				0A6965061D9B532B00F9D194 /* TEAClockChart.h */,
+				0A6965071D9B532B00F9D194 /* TEAClockChart.m */,
+				0A6965081D9B532B00F9D194 /* TEAContributionGraph.h */,
+				0A6965091D9B532B00F9D194 /* TEAContributionGraph.m */,
+				0A69650A1D9B532B00F9D194 /* TEATimeRange.h */,
+				0A69650B1D9B532B00F9D194 /* TEATimeRange.m */,
+			);
+			name = Chart;
+			sourceTree = "<group>";
+		};
+		0ABD5AC21D9B487300D07F9B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0A6965111D9B535300F9D194 /* LOHomeChartTableViewCell.h */,
+				0A6965121D9B535300F9D194 /* LOHomeChartTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		0ABD5ADB1D9B48B200D07F9B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0A6965291D9B53FF00F9D194 /* LOAddTableViewCell.h */,
+				0A69652A1D9B53FF00F9D194 /* LOAddTableViewCell.m */,
+				0A69652B1D9B53FF00F9D194 /* LOImageSearchCollectionViewCell.h */,
+				0A69652C1D9B53FF00F9D194 /* LOImageSearchCollectionViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		0ABD5ADC1D9B48D000D07F9B /* API Data */ = {
+			isa = PBXGroup;
+			children = (
+				0A6965261D9B53DA00F9D194 /* LORootItemData.h */,
+				0A6965271D9B53DA00F9D194 /* LORootItemData.m */,
+			);
+			name = "API Data";
+			sourceTree = "<group>";
+		};
+		0ABD5AE11D9B48E600D07F9B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0A6965321D9B54B200F9D194 /* LOWeekDetailTableViewCell.h */,
+				0A6965331D9B54B200F9D194 /* LOWeekDetailTableViewCell.m */,
+			);
+			name = Cells;
+			path = ../../Loop/Loop;
+			sourceTree = "<group>";
+		};
+		0ABD5B071D9B491B00D07F9B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0A6965491D9B563C00F9D194 /* LOCategoryHealthQuanitiesChartTableViewCell.h */,
+				0A69654A1D9B563C00F9D194 /* LOCategoryHealthQuanitiesChartTableViewCell.m */,
+				0A69654B1D9B563C00F9D194 /* LOCategorySourcingChartTableViewCell.h */,
+				0A69654C1D9B563C00F9D194 /* LOCategorySourcingChartTableViewCell.m */,
+				0A69654D1D9B563C00F9D194 /* LOCategorySummaryDetailTableViewCell.h */,
+				0A69654E1D9B563C00F9D194 /* LOCategorySummaryDetailTableViewCell.m */,
+				0A69654F1D9B563C00F9D194 /* LOCategoryWeekScoreChartHeaderTableViewCell.h */,
+				0A6965501D9B563C00F9D194 /* LOCategoryWeekScoreChartHeaderTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		1FBBC78FDF787913A3B6AD80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23334F484D22E989054819C4 /* Pods-Utmost.debug.xcconfig */,
+				A5B742CADD61BA8727AE7A60 /* Pods-Utmost.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		851765EF2BD91828CA688B2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ABD5A241D9B46B300D07F9B /* MapKit.framework */,
+				688ABBA567AEAA0C39546CB0 /* libPods-Utmost.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +619,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ABD5A1A1D9B44B000D07F9B /* Build configuration list for PBXNativeTarget "Utmost" */;
 			buildPhases = (
+				20765767FBCF583897CDF69C /* 📦 Check Pods Manifest.lock */,
 				0ABD59FC1D9B44B000D07F9B /* Sources */,
 				0ABD59FD1D9B44B000D07F9B /* Frameworks */,
 				0ABD59FE1D9B44B000D07F9B /* Resources */,
+				CE0FFA57A0414E1124FEDFD0 /* 📦 Embed Pods Frameworks */,
+				4A67927CCF7771224F4A8730 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,37 +674,142 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6964961D9B4F5000F9D194 /* GEInspira.ttf in Resources */,
+				0ABD5A231D9B465B00D07F9B /* Main.storyboard in Resources */,
+				0A6964941D9B4F5000F9D194 /* GEInspira-BoldItalic.ttf in Resources */,
+				0A6964F71D9B52A000F9D194 /* LONewsContainerCellView.xib in Resources */,
+				0ABD5A211D9B464600D07F9B /* Assets.xcassets in Resources */,
+				0A6964951D9B4F5000F9D194 /* GEInspira-Italic.ttf in Resources */,
+				0A6965481D9B561200F9D194 /* Rover.jpg in Resources */,
+				0A6964931D9B4F5000F9D194 /* GEInspira-Bold.ttf in Resources */,
 				0ABD5A161D9B44B000D07F9B /* LaunchScreen.storyboard in Resources */,
-				0ABD5A131D9B44B000D07F9B /* Assets.xcassets in Resources */,
-				0ABD5A0E1D9B44B000D07F9B /* Main.storyboard in Resources */,
+				0A6964F41D9B52A000F9D194 /* LONewsArticleCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20765767FBCF583897CDF69C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A67927CCF7771224F4A8730 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Utmost/Pods-Utmost-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE0FFA57A0414E1124FEDFD0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Utmost/Pods-Utmost-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0ABD59FC1D9B44B000D07F9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ABD5A0B1D9B44B000D07F9B /* ViewController.m in Sources */,
-				0ABD5A081D9B44B000D07F9B /* AppDelegate.m in Sources */,
+				0A6965451D9B561200F9D194 /* LOCategoryLifestyleDetailViewController.m in Sources */,
+				0A6964991D9B505400F9D194 /* LODataModel.xcdatamodeld in Sources */,
+				0A6964FA1D9B52B800F9D194 /* LONewsDetailViewController.m in Sources */,
+				0A6965251D9B53C300F9D194 /* LOVisualAddFoodViewController.m in Sources */,
+				0A6964E11D9B51E700F9D194 /* LOMapLocationData.m in Sources */,
+				0A6964BF1D9B50F000F9D194 /* LOLocation+CoreDataProperties.m in Sources */,
+				0A6964D91D9B512B00F9D194 /* LOSettingsNewsFeedCell.m in Sources */,
+				0A6964DE1D9B518300F9D194 /* LOMapDetailViewController.m in Sources */,
+				0A6964F31D9B52A000F9D194 /* LONewsArticleCollectionViewCell.m in Sources */,
+				0A6965521D9B563C00F9D194 /* LOCategorySourcingChartTableViewCell.m in Sources */,
 				0ABD5A051D9B44B000D07F9B /* main.m in Sources */,
-				0ABD5A111D9B44B000D07F9B /* Utmost.xcdatamodeld in Sources */,
+				0A6965371D9B558E00F9D194 /* NSDate+Utilities.m in Sources */,
+				0ABD5A1F1D9B463800D07F9B /* AppDelegate.m in Sources */,
+				0A6964C11D9B50F000F9D194 /* LONewsArticle+CoreDataProperties.m in Sources */,
+				0A6964C31D9B50F000F9D194 /* LORootItem+CoreDataProperties.m in Sources */,
+				0A6965001D9B530200F9D194 /* LOHomeTableViewController.m in Sources */,
+				0A6964F61D9B52A000F9D194 /* LONewsContainerCellView.m in Sources */,
+				0A6964DB1D9B512B00F9D194 /* LOSettingsPinsFeedCell.m in Sources */,
+				0A6965341D9B54B200F9D194 /* LOWeekDetailTableViewCell.m in Sources */,
+				0A6964C21D9B50F000F9D194 /* LORootItem.m in Sources */,
+				0A6964D51D9B512B00F9D194 /* LOSettingsAddFlowTableViewCell.m in Sources */,
+				0A6965221D9B53C300F9D194 /* LOAddTableViewController.m in Sources */,
+				0A6965231D9B53C300F9D194 /* LOFoodEditTableViewController.m in Sources */,
+				0A6965461D9B561200F9D194 /* LOCategoryMovementDetailViewController.m in Sources */,
+				0A6965471D9B561200F9D194 /* LOCategoryNutritionDetailViewController.m in Sources */,
+				0A69652D1D9B53FF00F9D194 /* LOAddTableViewCell.m in Sources */,
+				0A6964E71D9B524B00F9D194 /* LOHomeMapTableViewCell.m in Sources */,
+				0A6964BB1D9B50F000F9D194 /* LOFoodPrototype.m in Sources */,
+				0A6965131D9B535300F9D194 /* LOHomeChartTableViewCell.m in Sources */,
+				0A69650F1D9B532B00F9D194 /* TEAContributionGraph.m in Sources */,
+				0A6964B71D9B50F000F9D194 /* LOActivity+CoreDataProperties.m in Sources */,
+				0A69653A1D9B55A700F9D194 /* LOScore.m in Sources */,
+				0A69650D1D9B532B00F9D194 /* TEABarChart.m in Sources */,
+				0A6964BA1D9B50F000F9D194 /* LOFood+CoreDataProperties.m in Sources */,
+				0A6964D81D9B512B00F9D194 /* LOSettingsNewsDeleteCell.m in Sources */,
+				0A6965101D9B532B00F9D194 /* TEATimeRange.m in Sources */,
+				0A6965311D9B545100F9D194 /* LOWeekDetailViewController.m in Sources */,
+				0A6964C61D9B510F00F9D194 /* LOSettingsViewController.m in Sources */,
+				0A6964DA1D9B512B00F9D194 /* LOSettingsPinsDeleteCell.m in Sources */,
+				0A6964B81D9B50F000F9D194 /* LOActivityPrototype.m in Sources */,
+				0A6965511D9B563C00F9D194 /* LOCategoryHealthQuanitiesChartTableViewCell.m in Sources */,
+				0A6964C01D9B50F000F9D194 /* LONewsArticle.m in Sources */,
+				0A6964FD1D9B52CB00F9D194 /* LOActivityViewController.m in Sources */,
+				0A6964EA1D9B527800F9D194 /* LONewsArticleData.m in Sources */,
+				0A6965211D9B53C300F9D194 /* LOActivityEditTableViewController.m in Sources */,
+				0A6965281D9B53DA00F9D194 /* LORootItemData.m in Sources */,
+				0A6965531D9B563C00F9D194 /* LOCategorySummaryDetailTableViewCell.m in Sources */,
+				0A6965541D9B563C00F9D194 /* LOCategoryWeekScoreChartHeaderTableViewCell.m in Sources */,
+				0A6964B91D9B50F000F9D194 /* LOFood.m in Sources */,
+				0A6964BD1D9B50F000F9D194 /* LOItem+CoreDataProperties.m in Sources */,
+				0A69652E1D9B53FF00F9D194 /* LOImageSearchCollectionViewCell.m in Sources */,
+				0A6964D71D9B512B00F9D194 /* LOSettingsHeaderTableViewCell.m in Sources */,
+				0A6964D61D9B512B00F9D194 /* LOSettingsFoodDeleteCell.m in Sources */,
+				0A6964B61D9B50F000F9D194 /* LOActivity.m in Sources */,
+				0A6965441D9B561200F9D194 /* UIScrollView+APParallaxHeader.m in Sources */,
+				0A6964BC1D9B50F000F9D194 /* LOItem.m in Sources */,
+				0A69650E1D9B532B00F9D194 /* TEAClockChart.m in Sources */,
+				0A69650C1D9B532B00F9D194 /* NSDate+TEAExtensions.m in Sources */,
+				0A6965161D9B537800F9D194 /* LOHomeLoopTableViewCell.m in Sources */,
+				0A6964BE1D9B50F000F9D194 /* LOLocation.m in Sources */,
+				0A6964F51D9B52A000F9D194 /* LONewsContainerCell.m in Sources */,
+				0A6965241D9B53C300F9D194 /* LOImageSearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0ABD5A0C1D9B44B000D07F9B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0ABD5A0D1D9B44B000D07F9B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0ABD5A141D9B44B000D07F9B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -213,6 +851,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "Utmost/Utmost-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -259,6 +898,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Utmost/Utmost-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -275,6 +915,7 @@
 		};
 		0ABD5A1B1D9B44B000D07F9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23334F484D22E989054819C4 /* Pods-Utmost.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FS6KJ5XME6;
@@ -287,6 +928,7 @@
 		};
 		0ABD5A1C1D9B44B000D07F9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B742CADD61BA8727AE7A60 /* Pods-Utmost.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FS6KJ5XME6;
@@ -316,17 +958,18 @@
 				0ABD5A1C1D9B44B000D07F9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		0ABD5A0F1D9B44B000D07F9B /* Utmost.xcdatamodeld */ = {
+		0A6964971D9B505400F9D194 /* LODataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				0ABD5A101D9B44B000D07F9B /* Utmost.xcdatamodel */,
+				0A6964981D9B505400F9D194 /* LODataModel.xcdatamodel */,
 			);
-			currentVersion = 0ABD5A101D9B44B000D07F9B /* Utmost.xcdatamodel */;
-			path = Utmost.xcdatamodeld;
+			currentVersion = 0A6964981D9B505400F9D194 /* LODataModel.xcdatamodel */;
+			path = LODataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

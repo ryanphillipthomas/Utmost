@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <item>
+    <latitude>40.764099</latitude>
+    <longitude>-73.9265817</longitude>
+    <title>Grand Cafe</title>
+    <description>Huge menu covers breakfast, lunch and dinner plus coffee and cocktails in a casual space with a patio.</description>
+    <address>37-01 30th Ave, Astoria, NY 11103</address>
+    <id>1</id>
+    <image>https://lh6.googleusercontent.com/-Ohmv56v5mhY/UlXN_-9S9SI/AAAAAAAERx0/wUtGM99DyZEfczjnveEu6jDXRTuWRcAsA/s408-k-no/</image>
+  </item>
+
+  <item>
+    <latitude>40.6968107</latitude>
+    <longitude>-73.9810563</longitude>
+    <title>The UPS Store</title>
+    <description>Store offering shipping, packaging, printing and other services, plus office supplies.</description>
+    <address>28-24 Steinway St, Astoria, NY 11103</address>
+    <id>2</id>
+    <image>https://lh4.googleusercontent.com/-cPgA4zGpQqY/VTYv8UjxOcI/AAAAAAAAAAY/ZsAuz9Elpg0zuV6cDCvHrKGjRg6QAlViA/s454-k-no/</image>
+  </item>
+
+  <item>
+    <latitude>40.752942</latitude>
+    <longitude>-73.979088</longitude>
+    <title>The Shady Lady</title>
+    <description>Rustic-chic haunt with beamed ceilings and a copper bar offering elevated comfort cooking and cocktails.</description>
+    <address>34-19 30th Ave, Astoria, NY 11103</address>
+    <id>3</id>
+    <image>https://lh6.googleusercontent.com/-rMy0S924gxY/U0lrGEth_BI/AAAAAAAAAmk/462-BxWTY14JAIO3Tnts3mWtUs_Az_VWQ/s408-k-no/</image>
+  </item>
+
+    <item>
+    <latitude>34.0091295</latitude>
+    <longitude>-118.4970492</longitude>
+    <title>Pacific Park</title>
+    <description>Athletic fields, outdoor pool, playground and community center with a gymnasium and computer lab.</description>
+    <address>380 Santa Monica Pier, Santa Monica, CA 90401</address>
+    <id>4</id>
+    <image>https://lh5.googleusercontent.com/-9Z32i2s6-DU/Vgm1SvJTZUI/AAAAAAAAACU/GyCCzGsdsTEkzffTS-J500c1zAfQWujhQ/s408-k-no/</image>
+  </item>
+
+    <item>
+    <latitude>40.7487173</latitude>
+    <longitude>-73.9395642</longitude>
+    <title>Queens's Plaza</title>
+    <description>Queens Plaza is an express station on the IND Queens Boulevard Line of the New York City Subway. Located under the eastern edge of Queens Plaza at the large Queens Plaza interchange, it is served by</description>
+    <address>Queens, NY 11101</address>
+    <id>5</id>
+    <image>https://lh6.googleusercontent.com/proxy/7z059JMuH6_nJDid3eJxSsUmBKI3KfeGEUv_0lSYvtWlGNy5QNhKvvK5Ue2Le37vWPJGISaIMdcWIDsJNNR26YiAmoGuIA=w408-h306</image>
+  </item>
+
+    <item>
+    <latitude>40.7586939</latitude>
+    <longitude>-73.9356808</longitude>
+    <title>LaGuardia Community College</title>
+    <description>"Amazing, Nice people, Nice teachers and LaGCC its excellence for everyone."</description>
+    <address>31-10 Thomson Ave, Queens, NY 11101</address>
+    <id>6</id>
+    <image>https://lh5.googleusercontent.com/proxy/NS0v2blCfGdTXdPwoRWUu1B5pU6oHMVnCnoYIyfW2_42JcpPa0u2rMz6zhvoRD10z6iuD35RJMU-Gf-2gV9dLCTcBgtKRHONVhiUT2QSXFB0k7u13_oQWvKyu_xXBX34RgwXDWoAbr8uCW72IP-8i7MShXCMEg=w408-h271</image>
+  </item>
+
+    <item>
+    <latitude>40.7587783</latitude>
+    <longitude>-73.9289907</longitude>
+    <title>Sanfords's</title>
+    <description>This eatery offers twists on New American comfort fare in a contemporary updated-diner setting</description>
+    <address>30-13 Broadway, Astoria, NY 11106</address>
+    <id>7</id>
+    <image>https://s-media-cache-ak0.pinimg.com/736x/df/59/6b/df596b821697e955e34416036b8c4c41.jpg</image>
+  </item>
+
+    <item>
+    <latitude>40.760628</latitude>
+    <longitude>-73.9294796</longitude>
+    <title>Strand Smokehouse</title>
+    <description>Big, boisterous, counter-service destination for smoked meats, whiskey, local suds and live music.</description>
+    <address>25-27 Broadway, Queens, NY 11106</address>
+    <id>8</id>
+    <image>https://lh6.googleusercontent.com/-OrfG872Ym48/V6anhNAZQ3I/AAAAAAAA6H8/l3iZ6hs0xuoMb8WwYAVrOJ_OFxBKwzCpQCLIB/s455-k-no/</image>
+  </item>
+
+  <item>
+    <latitude>40.7646863</latitude>
+    <longitude>-73.9224238</longitude>
+    <title>Burnside Biscuit</title>
+    <description>Polished place for Southern fried chicken, biscuits, wood-fired dishes and regional cocktails</description>
+    <address>32-07 30th Ave, Queens, NY 11102</address>
+    <id>9</id>
+    <image>https://lh3.googleusercontent.com/-bCv37lE3MHY/VgA00A79f0I/AAAAAAAAADI/Q4oLwtc7gWIp5I-MWtfc0QTYMq1HTyzjg/s408-k-no/</image>
+  </item>
+
+</channel>
+</rss>

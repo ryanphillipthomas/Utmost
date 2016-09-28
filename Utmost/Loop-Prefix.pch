@@ -1,0 +1,41 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+#define KEY2 @"AIzaSyDz-cLUqR9-FIRNpXxryDHO9o6-jF32fDU"
+#define CX2 @"003358818250146870950:m_rvhqnbsv0"
+
+#define LOSearchTitlePredicate @"title CONTAINS[cd] %@"
+#define LOSearchPredicate @"name CONTAINS[cd] %@"
+#define LOSearchPredicate @"name CONTAINS[cd] %@"
+
+#define kDEEP_BLUE_COLOR [UIColor colorWithRed:0.000 green:0.329 blue:0.682 alpha:1.00]
+#define kLIGHT_BLUE_COLOR [UIColor colorWithRed:0.094 green:0.682 blue:0.871 alpha:1.00]
+#define kGREEN_COLOR [UIColor colorWithRed:0.137 green:0.561 blue:0.439 alpha:1.00]
+#define kTEIL_COLOR [UIColor colorWithRed:0.475 green:0.847 blue:0.816 alpha:1.00]
+#define kDARK_BLUE_COLOR [UIColor colorWithRed:0.000 green:0.463 blue:0.694 alpha:1.00]
+#define kGREY_COLOR [UIColor colorWithRed:0.604 green:0.635 blue:0.647 alpha:1.00]
+#define kDARK_GREY_COLOR [UIColor colorWithRed:0.298 green:0.314 blue:0.318 alpha:1.00]
+#define kDARK_RED_COLOR [UIColor colorWithRed:0.490 green:0.000 blue:0.012 alpha:1.00]
+
+#define kCHART_BACKROUND_COLOR [UIColor colorWithWhite:0.97 alpha:1]
+#define kCHART_BACKROUND_COLOR_WITH_ALPHA [UIColor colorWithWhite:0.97 alpha:.2]
+#define kCHART_CLEAR_COLOR [UIColor clearColor];
+
+
+typedef void (^LOSaveCompletionBlock)(BOOL success, NSManagedObjectID *objectID,  NSError *error);
+
+#endif

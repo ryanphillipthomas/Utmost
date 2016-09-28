@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+    <item>
+        <title>Mac And Cheese</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeOther</baseFoodType>
+        <environmentFrequencyLimit>100</environmentFrequencyLimit>
+        <healthFrequencyLimit>100</healthFrequencyLimit>
+        <image>http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg</image>
+        <id>1</id>
+    </item>
+
+    <item>
+        <title>Beef</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeRedProtein</baseFoodType>
+        <environmentFrequencyLimit>2</environmentFrequencyLimit>
+        <healthFrequencyLimit>2</healthFrequencyLimit>
+		<image>http://beefisbeef.com/assets/content/12026_ED_Raw_LFTB_Patty_Hel.jpg</image>
+        <id>2</id>
+    </item>
+
+    <item>
+        <title>Steak</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeRedProtein</baseFoodType>
+        <environmentFrequencyLimit>2</environmentFrequencyLimit>
+        <healthFrequencyLimit>2</healthFrequencyLimit>
+		<image>http://static1.essen-und-trinken.de/uploads/thumbnails_wlcp/1024x1024/0003/00000000003/33/98/339866_steak-anschnitt-shutterstock.jpg.cache</image>
+        <id>3</id>
+    </item>
+    
+    <item>
+        <title>Chicken</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeWhiteProtein</baseFoodType>
+        <environmentFrequencyLimit>4</environmentFrequencyLimit>
+        <healthFrequencyLimit>5</healthFrequencyLimit>
+		<image>http://images.media-allrecipes.com/userphotos/250x250/00/92/60/926051.jpg</image>
+        <id>4</id>
+    </item>
+    
+    <item>
+        <title>Turkey</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeWhiteProtein</baseFoodType>
+        <environmentFrequencyLimit>4</environmentFrequencyLimit>
+        <healthFrequencyLimit>5</healthFrequencyLimit>
+		<image>http://ab.wsimgs.com/wsimgs/ab/images/dp/wcm/201615/0017/willie-bird-fresh-free-range-pre-brined-organic-turkey-1-c.jpg</image>
+        <id>5</id>
+    </item>
+    
+    <item>
+        <title>Fish</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeWhiteProtein</baseFoodType>
+        <environmentFrequencyLimit>4</environmentFrequencyLimit>
+        <healthFrequencyLimit>5</healthFrequencyLimit>
+		<image>https://thecornishfishmonger.co.uk/media/catalog/category/omega3_trio_lown_rez_special.jpg</image>
+        <id>6</id>
+    </item>
+    
+    <item>
+        <title>Pork</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeRedProtein</baseFoodType>
+        <environmentFrequencyLimit>2</environmentFrequencyLimit>
+        <healthFrequencyLimit>2</healthFrequencyLimit>
+		<image>http://www.bakedbyjoanna.com/wp-content/uploads/2012/05/atmytable-1920_2.jpg</image>
+        <id>7</id>
+    </item>
+    
+    <item>
+        <title>Broccoli</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+        <environmentFrequencyLimit>100</environmentFrequencyLimit>
+        <healthFrequencyLimit>100</healthFrequencyLimit>
+ 		<image>http://www.rareseeds.com/assets/1/14/DimLarge/Romanesco-Italia-Broccoli-IMG_4921.jpg</image>
+        <id>8</id>
+    </item>
+    
+    <item>
+        <title>Potato</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+        <environmentFrequencyLimit>100</environmentFrequencyLimit>
+        <healthFrequencyLimit>3</healthFrequencyLimit>
+		<image>http://3.bp.blogspot.com/-k6mmw9BbX4E/VXtPzM22rgI/AAAAAAAAAp0/axlLjiF-QKI/s1600/potato.gif</image>
+        <id>9</id>
+    </item>
+    
+    <item>
+        <title>String Bean</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+        <environmentFrequencyLimit>100</environmentFrequencyLimit>
+        <healthFrequencyLimit>100</healthFrequencyLimit>
+ 		<image>http://farm3.static.flickr.com/2493/3841344894_a472c59b2b.jpg</image>
+        <id>10</id>
+    </item>
+    
+    <item>
+        <title>Brussels Sprouts</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+        <environmentFrequencyLimit>100</environmentFrequencyLimit>
+        <healthFrequencyLimit>100</healthFrequencyLimit>
+ 		<image>https://static01.nyt.com/images/2014/04/24/dining/Brussels-Sprouts/Brussels-Sprouts-master315.jpg</image>
+        <id>11</id>
+    </item>
+    
+    <item>
+        <title>Eggplant</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+        <environmentFrequencyLimit>100</environmentFrequencyLimit>
+        <healthFrequencyLimit>100</healthFrequencyLimit>
+        <image>http://www.rareseeds.com/assets/1/14/DimLarge/Eggplant-Diamond-IMG_4189-(1).jpg</image>
+        <id>12</id>
+    </item>
+    
+    <item>
+        <title>Bell Pepper</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+        <environmentFrequencyLimit>100</environmentFrequencyLimit>
+        <healthFrequencyLimit>100</healthFrequencyLimit>
+		<image>http://sunselect.ca/wp-content/uploads/red-pepper-product2.jpg</image>
+        <id>13</id>
+    </item>
+    
+    <item>
+        <title>Corn</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+        <environmentFrequencyLimit>2</environmentFrequencyLimit>
+        <healthFrequencyLimit>2</healthFrequencyLimit>
+		<image>https://authoritynutrition.com/wp-content/uploads/2015/01/corn.jpg</image>
+        <id>14</id>
+    </item>
+
+    <item>
+        <title>Red Potato</title>
+        <type>Food</type>
+        <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+        <environmentFrequencyLimit>100</environmentFrequencyLimit>
+        <healthFrequencyLimit>3</healthFrequencyLimit>
+		<image>https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_563a75fa-3d57-4def-86d7-dbc4a328dffa.jpg</image>
+        <id>15</id>
+    </item>
+
+
+  <item>
+    <title>Running</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeStrength</baseActivityType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>17</id>
+    <image>http://singrasa.net/wp-content/uploads/2016/04/triathlon-running.jpg</image>
+  </item>
+
+<item>
+    <title>Weight Lifting</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeStrength</baseActivityType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>18</id>
+    <image>http://www.stylewithglamour.com/uploads/weights.jpg</image>
+</item>
+
+<item>
+    <title>Biking</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeStrength</baseActivityType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>19</id>
+    <image>http://cdn1.bostonmagazine.com/wp-content/uploads/2013/06/bostonbikinglarge.jpg</image>
+</item>
+
+<item>
+    <title>Scuba Diving</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeStrength</baseActivityType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>20</id>
+    <image>http://www.oceanprodivers.com/img/divers-tropical.jpg</image>
+</item>
+
+<item>
+    <title>Basketball</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeCardio</baseActivityType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>21</id>
+    <image>https://s-media-cache-ak0.pinimg.com/236x/56/0d/1d/560d1d6dbf7120cd9e0b9bff5b7abe2e.jpg</image>
+</item>
+
+<item>
+    <title>Dancing</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeStrength</baseActivityType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>22</id>
+    <image>http://images.wisegeek.com/two-women-dancing-and-laughing.jpg</image>
+</item>
+
+<item>
+    <title>Baseball</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeStrength</baseActivityType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>23</id>
+    <image>http://www.eicc.edu/images/baseball/last/bb_2015_17.jpg</image>
+</item>
+
+<item>
+    <title>Snowboarding</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeStrength</baseActivityType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>24</id>
+    <image>https://pantherfile.uwm.edu/collins9/www/finalproject5/Project_5/snowboarding3.jpg</image>
+</item>
+
+<item>
+    <title>Hiking</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeCardio</baseActivityType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>25</id>
+    <image>http://pic.lifetmt.com/2014/08/shutterstock_15760738.jpg</image>
+</item>
+
+<item>
+    <title>Whitewater Rafting</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeStrength</baseActivityType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>26</id>
+    <image>http://prevozsaaerodroma.com/wp-content/uploads/2014/08/rafting-na-Tari.jpg</image>
+</item>
+
+<item>
+    <title>Football</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeCardio</baseActivityType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>27</id>
+    <image>http://naturefirstcleaningservices.com/nfcleaning/wp-content/uploads/2013/08/family_football_game.jpg</image>
+</item>
+
+<item>
+    <title>Playing Xbox</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeOther</baseActivityType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+    <id>28</id>
+    <image>http://media.salemwebnetwork.com/cms/CW/family/Teens/14137-video-games-boys-teens-wide.1200w.tn.jpg</image>
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+
+<item>
+	<title>Mac And Cheese</title>
+	<type>Food</type>
+	<baseFoodType>LOFoodTypeOther</baseFoodType>
+	<environmentFrequencyLimit>3</environmentFrequencyLimit>
+	<healthFrequencyLimit>2</healthFrequencyLimit>
+	<image>http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg</image>
+	<id>1</id>
+</item>
+
+<item>
+    <title>Beef</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeRedProtein</baseFoodType>
+    <environmentFrequencyLimit>1</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+	<image>http://beefisbeef.com/assets/content/12026_ED_Raw_LFTB_Patty_Hel.jpg</image>
+    <id>2</id>
+</item>
+
+<item>
+    <title>Steak</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeRedProtein</baseFoodType>
+    <environmentFrequencyLimit>1</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+	<image>http://static1.essen-und-trinken.de/uploads/thumbnails_wlcp/1024x1024/0003/00000000003/33/98/339866_steak-anschnitt-shutterstock.jpg.cache</image>
+    <id>3</id>
+</item>
+
+<item>
+    <title>Chicken</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeWhiteProtein</baseFoodType>
+    <environmentFrequencyLimit>3</environmentFrequencyLimit>
+    <healthFrequencyLimit>5</healthFrequencyLimit>
+	<image>http://images.media-allrecipes.com/userphotos/250x250/00/92/60/926051.jpg</image>
+    <id>4</id>
+</item>
+
+<item>
+    <title>Turkey</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeWhiteProtein</baseFoodType>
+    <environmentFrequencyLimit>3</environmentFrequencyLimit>
+    <healthFrequencyLimit>5</healthFrequencyLimit>
+	<image>http://ab.wsimgs.com/wsimgs/ab/images/dp/wcm/201615/0017/willie-bird-fresh-free-range-pre-brined-organic-turkey-1-c.jpg</image>
+    <id>5</id>
+</item>
+
+<item>
+    <title>Fish</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeWhiteProtein</baseFoodType>
+    <environmentFrequencyLimit>3</environmentFrequencyLimit>
+    <healthFrequencyLimit>5</healthFrequencyLimit>
+	<image>https://thecornishfishmonger.co.uk/media/catalog/category/omega3_trio_lown_rez_special.jpg</image>
+    <id>6</id>
+</item>
+
+<item>
+    <title>Pork</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeRedProtein</baseFoodType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+	<image>http://www.bakedbyjoanna.com/wp-content/uploads/2012/05/atmytable-1920_2.jpg</image>
+    <id>7</id>
+</item>
+
+<item>
+    <title>Broccoli</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+		<image>http://www.rareseeds.com/assets/1/14/DimLarge/Romanesco-Italia-Broccoli-IMG_4921.jpg</image>
+    <id>8</id>
+</item>
+
+<item>
+    <title>Potato</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>3</healthFrequencyLimit>
+	<image>http://3.bp.blogspot.com/-k6mmw9BbX4E/VXtPzM22rgI/AAAAAAAAAp0/axlLjiF-QKI/s1600/potato.gif</image>
+    <id>9</id>
+</item>
+
+<item>
+    <title>String Bean</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+		<image>http://farm3.static.flickr.com/2493/3841344894_a472c59b2b.jpg</image>
+    <id>10</id>
+</item>
+
+<item>
+    <title>Brussels Sprouts</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+		<image>https://static01.nyt.com/images/2014/04/24/dining/Brussels-Sprouts/Brussels-Sprouts-master315.jpg</image>
+    <id>11</id>
+</item>
+
+<item>
+    <title>Eggplant</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+    <image>http://www.rareseeds.com/assets/1/14/DimLarge/Eggplant-Diamond-IMG_4189-(1).jpg</image>
+    <id>12</id>
+</item>
+
+<item>
+    <title>Bell Pepper</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image>http://sunselect.ca/wp-content/uploads/red-pepper-product2.jpg</image>
+    <id>13</id>
+</item>
+
+<item>
+    <title>Corn</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>3</healthFrequencyLimit>
+	<image>https://authoritynutrition.com/wp-content/uploads/2015/01/corn.jpg</image>
+    <id>14</id>
+</item>
+
+<item>
+    <title>Red Potato</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>3</healthFrequencyLimit>
+	<image>https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_563a75fa-3d57-4def-86d7-dbc4a328dffa.jpg</image>
+    <id>15</id>
+</item>
+	
+		
+<item>
+    <title>Summer Squash</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>16</id>
+</item>
+<item>
+    <title>Zucchini</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>17</id>
+</item>
+
+<item>
+    <title>Cauliflower</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>18</id>
+</item>
+
+<item>
+    <title>Squash</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>19</id>
+</item>
+
+<item>
+    <title>Lettuce</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>20</id>
+</item>
+
+<item>
+    <title>Romaine Lettuce</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>21</id>
+</item>
+
+<item>
+    <title>Spinach</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>22</id>
+</item>
+
+<item>
+    <title>Rice</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>3</healthFrequencyLimit>
+	<image></image>
+    <id>23</id>
+</item>
+		
+<item>
+	<title>Hamburger</title>
+	<type>Food</type>
+	<baseFoodType>LOFoodTypeRedProtein</baseFoodType>
+	<environmentFrequencyLimit>1</environmentFrequencyLimit>
+	<healthFrequencyLimit>2</healthFrequencyLimit>
+	<image>http://beefisbeef.com/assets/content/12026_ED_Raw_LFTB_Patty_Hel.jpg</image>
+	<id>24</id>
+</item>	
+
+<item>
+	<title>Roast Beef</title>
+	<type>Food</type>
+	<baseFoodType>LOFoodTypeRedProtein</baseFoodType>
+	<environmentFrequencyLimit>1</environmentFrequencyLimit>
+	<healthFrequencyLimit>2</healthFrequencyLimit>
+	<image></image>
+	<id>25</id>
+</item>
+
+<item>
+	<title>Veal</title>
+	<type>Food</type>
+	<baseFoodType>LOFoodTypeRedProtein</baseFoodType>
+	<environmentFrequencyLimit>1</environmentFrequencyLimit>
+	<healthFrequencyLimit>2</healthFrequencyLimit>
+	<image></image>
+	<id>26</id>
+</item>
+
+<item>
+	<title>Pork Chop</title>
+	<type>Food</type>
+	<baseFoodType>LOFoodTypeRedProtein</baseFoodType>
+	<environmentFrequencyLimit>2</environmentFrequencyLimit>
+	<healthFrequencyLimit>2</healthFrequencyLimit>
+	<image></image>
+	<id>27</id>
+</item>
+
+<item>
+	<title>Fried Chicken</title>
+	<type>Food</type>
+	<baseFoodType>LOFoodTypeWhiteProtein</baseFoodType>
+	<environmentFrequencyLimit>3</environmentFrequencyLimit>
+	<healthFrequencyLimit>1</healthFrequencyLimit>
+	<image></image>
+	<id>28</id>
+</item>
+
+<item>
+	<title>Eggs</title>
+	<type>Food</type>
+	<baseFoodType>LOFoodTypeWhiteProtein</baseFoodType>
+	<environmentFrequencyLimit>4</environmentFrequencyLimit>
+	<healthFrequencyLimit>4</healthFrequencyLimit>
+	<image></image>
+	<id>29</id>
+</item>
+
+<item>
+	<title>Salmon</title>
+	<type>Food</type>
+	<baseFoodType>LOFoodTypeWhiteProtein</baseFoodType>
+	<environmentFrequencyLimit>2</environmentFrequencyLimit>
+	<healthFrequencyLimit>5</healthFrequencyLimit>
+	<image></image>
+	<id>30</id>
+</item>
+
+<item>
+	<title>Tuna</title>
+	<type>Food</type>
+	<baseFoodType>LOFoodTypeWhiteProtein</baseFoodType>
+	<environmentFrequencyLimit>2</environmentFrequencyLimit>
+	<healthFrequencyLimit>3</healthFrequencyLimit>
+	<image></image>
+	<id>31</id>
+</item>
+
+<item>
+	<title>Tilapia</title>
+	<type>Food</type>
+	<baseFoodType>LOFoodTypeWhiteProtein</baseFoodType>
+	<environmentFrequencyLimit>3</environmentFrequencyLimit>
+	<healthFrequencyLimit>3</healthFrequencyLimit>
+	<image></image>
+	<id>32</id>
+</item>
+
+<item>
+    <title>Kidney Bean</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypePlantProtein</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>33</id>
+</item>
+		
+<item>
+    <title>Garbanzo Bean</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypePlantProtein</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>34</id>
+</item>
+		
+<item>
+    <title>Lima Bean</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypePlantProtein</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>35</id>
+</item>
+		
+<item>
+    <title>Pinto Bean</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypePlantProtein</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>36</id>
+</item>
+		
+<item>
+    <title>Soy Bean</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypePlantProtein</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>37</id>
+</item>
+		
+<item>
+    <title>Black Bean</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypePlantProtein</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>38</id>
+</item>
+		
+<item>
+    <title>Chickpea</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypePlantProtein</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>39</id>
+</item>
+		
+<item>
+    <title>Hummus</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypePlantProtein</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>40</id>
+</item>
+		
+<item>
+    <title>Quinoa</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypePlantProtein</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>41</id>
+</item>
+		
+<item>
+    <title>Lentils</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypePlantProtein</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>42</id>
+</item>
+		
+<item>
+    <title>Tofu</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypePlantProtein</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>43</id>
+</item>
+		
+<item>
+    <title>Bread</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeOther</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>3</healthFrequencyLimit>
+	<image></image>
+    <id>44</id>
+</item>
+<item>
+    <title>Pasta</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeOther</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+	<image></image>
+    <id>45</id>
+</item>
+
+
+<item>
+    <title>Whole Wheat Pasta</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>3</healthFrequencyLimit>
+	<image></image>
+    <id>46</id>
+</item>
+
+
+<item>
+    <title>Pizza</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeOther</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>1</healthFrequencyLimit>
+	<image></image>
+    <id>47</id>
+</item>
+
+<item>
+    <title>Bagel</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeOther</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>0</healthFrequencyLimit>
+	<image></image>
+    <id>48</id>
+</item>
+
+<item>
+    <title>Hot Dog</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeOther</baseFoodType>
+    <environmentFrequencyLimit>0</environmentFrequencyLimit>
+    <healthFrequencyLimit>0</healthFrequencyLimit>
+	<image></image>
+    <id>49</id>
+</item>
+
+<item>
+    <title>French Fries</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeOther</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>0</healthFrequencyLimit>
+	<image></image>
+    <id>50</id>
+</item>
+
+<item>
+    <title>Banana</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>8</healthFrequencyLimit>
+	<image></image>
+    <id>51</id>
+</item>
+
+<item>
+    <title>Apple</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>10</healthFrequencyLimit>
+	<image></image>
+    <id>52</id>
+</item>
+
+<item>
+    <title>Pear</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>10</healthFrequencyLimit>
+	<image></image>
+    <id>53</id>
+</item>
+
+<item>
+    <title>Orange</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>10</healthFrequencyLimit>
+	<image></image>
+    <id>54</id>
+</item>
+
+
+<item>
+    <title>Tangerine</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>10</healthFrequencyLimit>
+	<image></image>
+    <id>55</id>
+</item>
+
+<item>
+    <title>Blueberries</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>10</healthFrequencyLimit>
+	<image></image>
+    <id>56</id>
+</item>
+
+<item>
+    <title>Raspberries</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>57</id>
+</item>
+
+<item>
+    <title>Strawberries</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+	<image></image>
+    <id>58</id>
+</item>
+
+<item>
+    <title>Mango</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>8</healthFrequencyLimit>
+	<image></image>
+    <id>59</id>
+</item>
+
+<item>
+    <title>Pineapple</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>8</healthFrequencyLimit>
+	<image></image>
+    <id>60</id>
+</item>
+
+<item>
+    <title>Kiwi</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>8</healthFrequencyLimit>
+	<image></image>
+    <id>61</id>
+</item>
+
+<item>
+    <title>Grapefruit</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>8</healthFrequencyLimit>
+	<image></image>
+    <id>62</id>
+</item>
+
+<item>
+    <title>Peach</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>8</healthFrequencyLimit>
+	<image></image>
+    <id>63</id>
+</item>
+
+<item>
+    <title>Nectarine</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>8</healthFrequencyLimit>
+	<image></image>
+    <id>64</id>
+</item>
+
+<item>
+    <title>Date</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeFruit</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>8</healthFrequencyLimit>
+	<image></image>
+    <id>65</id>
+</item>
+
+<item>
+    <title>Cashew</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeNut</baseFoodType>
+    <environmentFrequencyLimit>4</environmentFrequencyLimit>
+    <healthFrequencyLimit>3</healthFrequencyLimit>
+	<image></image>
+    <id>66</id>
+</item>
+
+<item>
+    <title>Almond</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeNut</baseFoodType>
+    <environmentFrequencyLimit>4</environmentFrequencyLimit>
+    <healthFrequencyLimit>5</healthFrequencyLimit>
+	<image></image>
+    <id>67</id>
+</item>
+
+<item>
+    <title>Peanut</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeNut</baseFoodType>
+    <environmentFrequencyLimit>6</environmentFrequencyLimit>
+    <healthFrequencyLimit>4</healthFrequencyLimit>
+	<image></image>
+    <id>68</id>
+</item>
+
+<item>
+    <title>Walnut</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeNut</baseFoodType>
+    <environmentFrequencyLimit>4</environmentFrequencyLimit>
+    <healthFrequencyLimit>5</healthFrequencyLimit>
+	<image></image>
+    <id>69</id>
+</item>
+
+<item>
+    <title>Hazelnut</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeNut</baseFoodType>
+    <environmentFrequencyLimit>4</environmentFrequencyLimit>
+    <healthFrequencyLimit>5</healthFrequencyLimit>
+	<image></image>
+    <id>70</id>
+</item>
+
+<item>
+    <title>Brazil Nut</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeNut</baseFoodType>
+    <environmentFrequencyLimit>4</environmentFrequencyLimit>
+    <healthFrequencyLimit>5</healthFrequencyLimit>
+	<image></image>
+    <id>71</id>
+</item>
+
+<item>
+    <title>Pie</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeOther</baseFoodType>
+    <environmentFrequencyLimit>1</environmentFrequencyLimit>
+    <healthFrequencyLimit>0</healthFrequencyLimit>
+	<image></image>
+    <id>72</id>
+</item>
+
+<item>
+    <title>Tator Tots</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeOther</baseFoodType>
+    <environmentFrequencyLimit>3</environmentFrequencyLimit>
+    <healthFrequencyLimit>0</healthFrequencyLimit>
+	<image></image>
+    <id>73</id>
+</item>
+
+<item>
+    <title>Beef Jerky</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeRedProtein</baseFoodType>
+    <environmentFrequencyLimit>1</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+	<image></image>
+    <id>74</id>
+</item>
+
+<item>
+    <title>Meatloaf</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeRedProtein</baseFoodType>
+    <environmentFrequencyLimit>1</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+	<image></image>
+    <id>75</id>
+</item>
+
+<item>
+    <title>Crab</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeWhiteProtein</baseFoodType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>3</healthFrequencyLimit>
+	<image></image>
+    <id>76</id>
+</item>
+
+<item>
+    <title>Potato Chips</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeOther</baseFoodType>
+    <environmentFrequencyLimit>3</environmentFrequencyLimit>
+    <healthFrequencyLimit>0</healthFrequencyLimit>
+	<image></image>
+    <id>77</id>
+</item>
+
+<item>
+    <title>Fortune Cookie</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeOther</baseFoodType>
+    <environmentFrequencyLimit>1</environmentFrequencyLimit>
+    <healthFrequencyLimit>0</healthFrequencyLimit>
+	<image></image>
+    <id>78</id>
+</item>
+
+<item>
+    <title>Peanut Butter</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeNut</baseFoodType>
+    <environmentFrequencyLimit>6</environmentFrequencyLimit>
+    <healthFrequencyLimit>4</healthFrequencyLimit>
+	<image></image>
+    <id>79</id>
+</item>
+
+<item>
+    <title>Popcorn</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeOther</baseFoodType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>0</healthFrequencyLimit>
+	<image></image>
+    <id>80</id>
+</item>
+
+<item>
+    <title>Clam Chowder</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeOther</baseFoodType>
+    <environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>0</healthFrequencyLimit>
+	<image></image>
+    <id>81</id>
+</item>
+
+<item>
+    <title>S'mores</title>
+    <type>Food</type>
+    <baseFoodType>LOFoodTypeOther</baseFoodType>
+    <environmentFrequencyLimit>0</environmentFrequencyLimit>
+    <healthFrequencyLimit>0</healthFrequencyLimit>
+	<image></image>
+    <id>82</id>
+</item>
+
+<item>
+	<title>Wings</title>
+	<type>Food</type>
+	<baseFoodType>LOFoodTypeWhiteProtein</baseFoodType>
+	<environmentFrequencyLimit>2</environmentFrequencyLimit>
+    <healthFrequencyLimit>1</healthFrequencyLimit>
+	<image></image>
+	<id>83</id>
+</item>
+
+<item>
+	<title>Ribs</title>
+	<type>Food</type>
+	<baseFoodType>LOFoodTypeRedProtein</baseFoodType>
+	<environmentFrequencyLimit>1</environmentFrequencyLimit>
+	<healthFrequencyLimit>2</healthFrequencyLimit>
+	<image></image>
+	<id>84</id>
+</item>
+
+<item>
+	<title>Nachos</title>
+	<type>Food</type>
+	<baseFoodType>LOFoodTypeOther</baseFoodType>
+	<environmentFrequencyLimit>0</environmentFrequencyLimit>
+	<healthFrequencyLimit>0</healthFrequencyLimit>
+	<image></image>
+	<id>85</id>
+</item>
+
+<item>
+    <title>Cheeseburger</title>
+    <type>Food</type>
+	<baseFoodType>LOFoodTypeRedProtein</baseFoodType>
+	<environmentFrequencyLimit>1</environmentFrequencyLimit>
+	<healthFrequencyLimit>2</healthFrequencyLimit><image>
+	<image></image>
+	<id>86</id>
+</item>
+
+<item>
+	<title>Oatmeal</title>
+	<type>Food</type>
+    <baseFoodType>LOFoodTypeVegetable</baseFoodType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>5</healthFrequencyLimit>
+	<image></image>
+	<id>87</id>
+</item>
+	
+<item>
+    <title>Running</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeCardio</baseActivityType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>201</id>
+    <image>http://singrasa.net/wp-content/uploads/2016/04/triathlon-running.jpg</image>
+  </item>
+
+<item>
+    <title>Weight Lifting</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeStrength</baseActivityType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>5</healthFrequencyLimit>
+    <id>202</id>
+    <image>http://www.stylewithglamour.com/uploads/weights.jpg</image>
+</item>
+
+<item>
+    <title>Biking</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeCardio</baseActivityType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>4</healthFrequencyLimit>
+    <id>203</id>
+    <image>http://cdn1.bostonmagazine.com/wp-content/uploads/2013/06/bostonbikinglarge.jpg</image>
+</item>
+
+<item>
+    <title>Scuba Diving</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeOther</baseActivityType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+    <id>204</id>
+    <image>http://www.oceanprodivers.com/img/divers-tropical.jpg</image>
+</item>
+
+<item>
+    <title>Basketball</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeCardio</baseActivityType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>205</id>
+    <image>https://s-media-cache-ak0.pinimg.com/236x/56/0d/1d/560d1d6dbf7120cd9e0b9bff5b7abe2e.jpg</image>
+</item>
+
+<item>
+    <title>Dancing</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeCardio</baseActivityType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>3</healthFrequencyLimit>
+    <id>206</id>
+    <image>http://images.wisegeek.com/two-women-dancing-and-laughing.jpg</image>
+</item>
+
+<item>
+    <title>Baseball</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeOther</baseActivityType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>3</healthFrequencyLimit>
+    <id>207</id>
+    <image>http://www.eicc.edu/images/baseball/last/bb_2015_17.jpg</image>
+</item>
+
+<item>
+    <title>Snowboarding</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeOther</baseActivityType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>208</id>
+    <image>https://pantherfile.uwm.edu/collins9/www/finalproject5/Project_5/snowboarding3.jpg</image>
+</item>
+
+<item>
+    <title>Hiking</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeCardio</baseActivityType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>7</healthFrequencyLimit>
+    <id>209</id>
+    <image>http://pic.lifetmt.com/2014/08/shutterstock_15760738.jpg</image>
+</item>
+
+<item>
+    <title>Whitewater Rafting</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeOther</baseActivityType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>100</healthFrequencyLimit>
+    <id>210</id>
+    <image>http://prevozsaaerodroma.com/wp-content/uploads/2014/08/rafting-na-Tari.jpg</image>
+</item>
+
+<item>
+    <title>Football</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeOther</baseActivityType>
+    <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>211</id>
+    <image>http://naturefirstcleaningservices.com/nfcleaning/wp-content/uploads/2013/08/family_football_game.jpg</image>
+</item>
+
+<item>
+    <title>Playing Xbox</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeOther</baseActivityType>
+    <environmentFrequencyLimit>4</environmentFrequencyLimit>
+    <healthFrequencyLimit>2</healthFrequencyLimit>
+    <id>212</id>
+    <image>http://media.salemwebnetwork.com/cms/CW/family/Teens/14137-video-games-boys-teens-wide.1200w.tn.jpg</image>
+</item>
+	
+<item>
+    <title>Elliptical</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeCardio</baseActivityType>
+   <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>7</healthFrequencyLimit>
+    <id>213</id>
+	<image></image>
+</item>
+			
+<item>
+    <title>Ergometer</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeCardio</baseActivityType>
+   <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>7</healthFrequencyLimit>
+    <id>214</id>
+	<image></image>
+</item>
+			
+<item>
+    <title>Row Machine</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeCardio</baseActivityType>
+   <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>7</healthFrequencyLimit>
+    <id>215</id>
+	<image></image>
+</item>
+			
+<item>
+    <title>Stair Climber</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeCardio</baseActivityType>
+   <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>3</healthFrequencyLimit>
+    <id>216</id>
+	<image></image>
+</item>
+			
+<item>
+    <title>Recumbent Bike</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeCardio</baseActivityType>
+   <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>7</healthFrequencyLimit>
+    <id>217</id>
+	<image></image>
+</item>
+			
+<item>
+    <title>Group Fitness/Class</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeCardio</baseActivityType>
+   <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>3</healthFrequencyLimit>
+    <id>218</id>
+	<image></image>
+</item>
+			
+<item>
+    <title>Yoga</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeFlexibility</baseActivityType>
+   <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>5</healthFrequencyLimit>
+    <id>219</id>
+	<image></image>
+</item>
+			
+<item>
+    <title>Pilates</title>
+    <type>Activity</type>
+    <baseActivityType>LOActivityTypeStrength</baseActivityType>
+   <environmentFrequencyLimit>100</environmentFrequencyLimit>
+    <healthFrequencyLimit>3</healthFrequencyLimit>
+    <id>220</id>
+	<image></image>
+</item>
+	
+
+</channel>
+</rss>

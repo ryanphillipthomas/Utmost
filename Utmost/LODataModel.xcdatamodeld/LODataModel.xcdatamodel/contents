@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11224.2" systemVersion="15F34" minimumToolsVersion="Xcode 7.0" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="LOActivity" representedClassName="LOActivity" syncable="YES">
+        <attribute name="activityID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="mediaURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stringDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="item" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LOItem" inverseName="activity" inverseEntity="LOItem" syncable="YES"/>
+        <relationship name="rootItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LORootItem" inverseName="activities" inverseEntity="LORootItem" syncable="YES"/>
+    </entity>
+    <entity name="LOFood" representedClassName="LOFood" syncable="YES">
+        <attribute name="categories" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="foodID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="mediaURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stringDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="item" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LOItem" inverseName="food" inverseEntity="LOItem" syncable="YES"/>
+        <relationship name="rootItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LORootItem" inverseName="foods" inverseEntity="LORootItem" syncable="YES"/>
+    </entity>
+    <entity name="LOItem" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sectionDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="stringDate" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="activity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LOActivity" inverseName="item" inverseEntity="LOActivity" syncable="YES"/>
+        <relationship name="food" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LOFood" inverseName="item" inverseEntity="LOFood" syncable="YES"/>
+    </entity>
+    <entity name="LOLocation" representedClassName="LOLocation" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LONewsArticle" representedClassName="LONewsArticle" syncable="YES">
+        <attribute name="articleID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LORootItem" representedClassName="LORootItem" syncable="YES">
+        <attribute name="baseActivityType" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="baseFoodType" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="environmentFrequencyLimit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="healthFrequencyLimit" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemTypeString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rootItemID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="activities" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="LOActivity" inverseName="rootItem" inverseEntity="LOActivity" syncable="YES"/>
+        <relationship name="foods" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="LOFood" inverseName="rootItem" inverseEntity="LOFood" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="LOActivity" positionX="-54" positionY="54" width="128" height="195"/>
+        <element name="LOFood" positionX="-63" positionY="-18" width="128" height="195"/>
+        <element name="LOItem" positionX="-54" positionY="72" width="128" height="120"/>
+        <element name="LOLocation" positionX="-54" positionY="90" width="128" height="135"/>
+        <element name="LONewsArticle" positionX="-54" positionY="90" width="128" height="105"/>
+        <element name="LORootItem" positionX="-54" positionY="90" width="128" height="195"/>
+    </elements>
+</model>
