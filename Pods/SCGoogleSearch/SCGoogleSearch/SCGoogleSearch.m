@@ -72,6 +72,10 @@ NSString * const SC_GS_FILTER = @"filter";
     }
     
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc]initWithBaseURL:[NSURL URLWithString:@"https://www.googleapis.com/"]];
+    manager.responseSerializer = [AFJSONResponseSerializer serializer];
+    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    [manager.requestSerializer setValue:@"com.phazebludesign.com.Loop" forHTTPHeaderField:@"X-Ios-Bundle-Identifier"];
+
     [manager GET:@"customsearch/v1"
       parameters:[NSDictionary dictionaryWithDictionary:parameters]
         progress:nil
