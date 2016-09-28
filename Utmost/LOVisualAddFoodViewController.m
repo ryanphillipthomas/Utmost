@@ -350,7 +350,7 @@
     
     NSArray *screenAwnswersForFirstScreen = [self.screenAwnsers valueForKey:@"1"];
     for (NSString *awnswer in screenAwnswersForFirstScreen) {
-        if ([awnswer isEqualToString:@"at a restaurant"] || [awnswer isEqualToString:@"delivery"]) {
+        if ([awnswer isEqualToString:@"from a restaurant"] || [awnswer isEqualToString:@"delivery"]) {
             shouldShowResturantScreen = YES;
         }
     }
@@ -495,7 +495,7 @@
 
 - (NSNumber *)numberForAwnser:(NSString *)awnswer
 {
-    if ([awnswer isEqualToString:@"at a restaurant"]) {
+    if ([awnswer isEqualToString:@"from a restaurant"]) {
         return [NSNumber numberWithInteger:LOFoodLocationRestaurant];
     }
     
@@ -524,7 +524,7 @@
     }
     
     if ([awnswer isEqualToString:@"locally sourced"]) {
-        return [NSNumber numberWithInteger:LOFoodCategoryFarmToTable];
+        return [NSNumber numberWithInteger:LOFoodCategoryLocal];
     }
     
     if ([awnswer isEqualToString:@"supermarket"]) {

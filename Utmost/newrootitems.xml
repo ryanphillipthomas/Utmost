@@ -859,7 +859,7 @@
     <type>Food</type>
 	<baseFoodType>LOFoodTypeRedProtein</baseFoodType>
 	<environmentFrequencyLimit>1</environmentFrequencyLimit>
-	<healthFrequencyLimit>2</healthFrequencyLimit><image>
+	<healthFrequencyLimit>2</healthFrequencyLimit>
 	<image></image>
 	<id>86</id>
 </item>

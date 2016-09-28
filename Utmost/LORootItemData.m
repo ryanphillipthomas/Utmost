@@ -78,7 +78,7 @@
 
 - (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict
 {
-    //NSLog(@"%@", elementName);
+//    NSLog(@"%@", elementName);
     
     if ([elementName isEqualToString:@"rss"]) {
         self.marrXMLData = [[NSMutableArray alloc] init];
@@ -101,7 +101,7 @@
 
 - (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName
 {
-    //NSLog(@"Element Name: %@", elementName);
+//    NSLog(@"Element Name: %@", elementName);
     
     if ([elementName isEqualToString:@"title"]
         || [elementName isEqualToString:@"baseFoodType"]
@@ -115,7 +115,7 @@
         NSCharacterSet *charToRemove = [NSCharacterSet whitespaceAndNewlineCharacterSet];
         [self.mdictXMLPart setObject: [self.mstrXMLString stringByTrimmingCharactersInSet:charToRemove] forKey:elementName];
         
-        //NSLog(@"Element Data: %@", self.mstrXMLString);
+     //   NSLog(@"Element Data: %@", self.mstrXMLString);
     }
     
     if ([elementName isEqualToString:@"item"]) {
