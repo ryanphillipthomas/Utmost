@@ -648,7 +648,7 @@
 					0ABD59FF1D9B44B000D07F9B = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = FS6KJ5XME6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -935,8 +935,10 @@
 				DEVELOPMENT_TEAM = FS6KJ5XME6;
 				INFOPLIST_FILE = Utmost/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = phazebludesign.Utmost;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phazebludesign.utmost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "43689c7e-6d11-45e1-8835-0f1f7fb8caaf";
+				PROVISIONING_PROFILE_SPECIFIER = Development;
 			};
 			name = Debug;
 		};
@@ -945,11 +947,14 @@
 			baseConfigurationReference = A5B742CADD61BA8727AE7A60 /* Pods-Utmost.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = FS6KJ5XME6;
 				INFOPLIST_FILE = Utmost/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = phazebludesign.Utmost;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phazebludesign.utmost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9ba82180-2596-4b68-8642-42fc98fb85be";
+				PROVISIONING_PROFILE_SPECIFIER = Distribution;
 			};
 			name = Release;
 		};
